@@ -1,0 +1,92 @@
+<svg display="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- file -->
+    <symbol id="file" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17">
+        <rect y="2" width="20" height="15"/>
+        <rect x="13" width="7" height="4"/>
+    </symbol>
+    <!-- close -->
+    <symbol id="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24" fill="none">
+        <path d="M7.5 7L17.5 17" stroke="#141414" stroke-linecap="round"/>
+        <path d="M17.5 7L7.5 17" stroke="#141414" stroke-linecap="round"/>
+    </symbol>
+    <!-- checkboxBefore -->
+    <symbol id="checkboxBefore" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
+        <rect x="1" y="1" width="18" height="18" rx="3" fill="white"/>
+        <rect x="1" y="1" width="18" height="18" rx="3" stroke="#A4BBC3" stroke-width="2"/>
+    </symbol>
+    <!-- checkboxAfter -->
+    <symbol id="checkboxAfter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
+        <rect width="20" height="20" rx="4" fill="#FFD142"/>
+        <path d="M5 9L9 13L16 6" stroke="#141414" stroke-width="2"/>
+    </symbol>
+    <!-- radioBefore -->
+    <symbol id="radioBefore" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" fill="none">
+        <rect x="1" y="1" width="24" height="24" rx="12" fill="white"/>
+        <rect x="1" y="1" width="24" height="24" rx="12" stroke="#E8D29F" stroke-width="2"/>
+    </symbol>
+    <!-- radioAfter -->
+    <symbol id="radioAfter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" fill="none">
+        <circle cx="13" cy="13" r="7" fill="#E8D29F"/>
+        <rect x="1" y="1" width="24" height="24" rx="12" stroke="#E8D29F" stroke-width="2"/>
+    </symbol>
+    <!-- eye -->
+    <symbol id="eye" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 12C3 12 5.7 6 12 6C18.3 6 21 12 21 12C21 12 18.3 18 12 18C5.7 18 3 12 3 12Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <!-- search -->
+    <symbol id="search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+        <rect  fill="white"/>
+        <path d="M18 18L16 16" stroke="#A4BBC3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7V7C9.23866 7.0002 7.0002 9.23866 7 12" stroke="#A4BBC3" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <!-- date -->
+    <symbol id="date" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M19 5H5C3.89543 5 3 5.79594 3 6.77778V19.2222C3 20.2041 3.89543 21 5 21H19C20.1046 21 21 20.2041 21 19.2222V6.77778C21 5.79594 20.1046 5 19 5Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16 3V7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8 3V7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M3 11H21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <!-- arrowRight -->
+    <symbol id="arrowRight" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+        <path d="M19.2727 11.8184H4" stroke-linecap="round"/>
+        <path d="M12.728 6L19.2734 11.8182L12.728 17.6364" stroke-linecap="round"/>
+    </symbol>
+    <!-- arrowBottom -->
+    <symbol id="arrowBottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 4.279">
+        <path id="Icon_metro-chevron-thin-down" d="M12.18,10.749a.324.324,0,0,1,.455,0,.316.316,0,0,1,0,.451L8.957,14.841a.324.324,0,0,1-.455,0L4.823,11.2a.317.317,0,0,1,0-.451.324.324,0,0,1,.455,0L8.729,14.07Z" transform="translate(-4.729 -10.655)" fill="#fff"/>
+    </symbol>
+    <!-- socials__ico01 -->
+    <symbol id="socials__ico01" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.4823 19.7902L18.483 19.7885L18.5004 19.745L21.4992 4.62592V4.57682C21.4992 4.20012 21.36 3.87126 21.0571 3.674C20.792 3.50133 20.4873 3.48904 20.2736 3.50526C20.0476 3.52241 19.8344 3.57883 19.6869 3.62579C19.611 3.64995 19.5475 3.67323 19.502 3.69083C19.4792 3.69967 19.4608 3.70717 19.4473 3.71276L19.4341 3.71831L2.71429 10.2772L2.70968 10.2789C2.70065 10.2822 2.68871 10.2866 2.67429 10.2923C2.64553 10.3034 2.60639 10.3195 2.56041 10.3403C2.47013 10.3812 2.3454 10.4444 2.21889 10.531C2.00404 10.6781 1.59493 11.0264 1.66401 11.5787C1.72123 12.0361 2.03653 12.3266 2.2491 12.477C2.36305 12.5576 2.47206 12.6157 2.55189 12.6538C2.59234 12.673 2.6267 12.6878 2.65228 12.6982C2.66511 12.7034 2.67584 12.7076 2.68414 12.7107L2.69476 12.7147L2.70156 12.7172L5.6268 13.702C5.61692 13.8856 5.63513 14.0727 5.6838 14.2573L7.14908 19.8157C7.32282 20.4748 7.91905 20.9339 8.60062 20.9334C9.21155 20.9329 9.75337 20.5633 9.98356 20.0119L12.2712 17.5658L16.2002 20.5781L16.2561 20.6025C16.6131 20.7582 16.9466 20.8076 17.2515 20.7659C17.556 20.7243 17.798 20.5966 17.9797 20.4512C18.1586 20.3081 18.2812 20.1466 18.3582 20.025C18.3974 19.9633 18.4266 19.909 18.4469 19.8681C18.457 19.8476 18.465 19.8302 18.4711 19.8167L18.4786 19.7993L18.4813 19.7928L18.4823 19.7902ZM7.1342 13.875C7.1009 13.7486 7.15318 13.6153 7.26346 13.5452L17.1855 7.24432C17.1855 7.24432 17.7691 6.89002 17.7482 7.24432C17.7482 7.24432 17.8524 7.30689 17.5396 7.59861C17.243 7.87569 10.468 14.4167 9.78242 15.0786C9.74285 15.1168 9.71923 15.1607 9.70529 15.2139L8.59948 19.4334L7.1342 13.875Z"/>
+    </symbol>
+    <!-- socials__ico02 -->
+    <symbol id="socials__ico02" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.98803 4.89006C10.3237 4.62909 13.6747 4.62909 17.0103 4.89006L19.251 5.06536C20.4991 5.16301 21.5201 6.0984 21.7264 7.33317C22.2426 10.4227 22.2426 13.5764 21.7264 16.6659C21.5201 17.9007 20.4991 18.8361 19.251 18.9337L17.0103 19.109C13.6747 19.37 10.3237 19.37 6.98803 19.109L4.74733 18.9337C3.49925 18.8361 2.47823 17.9007 2.27192 16.6659C1.75571 13.5764 1.75571 10.4227 2.27192 7.33317C2.47823 6.0984 3.49925 5.16301 4.74733 5.06536L6.98803 4.89006ZM9.99915 14.4697V9.5294C9.99915 9.29621 10.2535 9.15218 10.4535 9.27215L14.5704 11.7423C14.7646 11.8588 14.7646 12.1403 14.5704 12.2568L10.4535 14.7269C10.2535 14.8469 9.99915 14.7029 9.99915 14.4697Z"/>
+    </symbol>
+    <!-- socials__ico03 -->
+    <symbol id="socials__ico03" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M21.5035 18.381H19.222C18.3588 18.381 18.0992 17.682 16.5511 16.1339C15.2 14.8313 14.6292 14.6686 14.2868 14.6686C13.8145 14.6686 13.6847 14.7984 13.6847 15.4505V17.5021C13.6847 18.0573 13.5049 18.3825 12.0553 18.3825C10.6485 18.288 9.28422 17.8606 8.07493 17.1355C6.86564 16.4104 5.84592 15.4084 5.09975 14.212C3.32828 12.0071 2.0957 9.41934 1.5 6.65442C1.5 6.31196 1.62979 6.00234 2.28187 6.00234H4.56182C5.14822 6.00234 5.35933 6.26349 5.5892 6.86553C6.69633 10.1244 8.58534 12.9579 9.35158 12.9579C9.64556 12.9579 9.77379 12.8281 9.77379 12.0947V8.7389C9.67684 7.20799 8.86369 7.0782 8.86369 6.52463C8.87413 6.37862 8.94104 6.24243 9.05022 6.14492C9.1594 6.04742 9.30227 5.99628 9.44853 6.00234H13.0326C13.5221 6.00234 13.6847 6.24629 13.6847 6.83269V11.3613C13.6847 11.8508 13.8958 12.0134 14.0428 12.0134C14.3368 12.0134 14.5635 11.8508 15.1015 11.3128C16.2569 9.90381 17.2009 8.33401 17.9037 6.65286C17.9756 6.45092 18.1115 6.27804 18.2908 6.16058C18.4701 6.04313 18.6829 5.98755 18.8967 6.00234H21.1782C21.8616 6.00234 22.007 6.3448 21.8616 6.83269C21.032 8.6911 20.0055 10.4552 18.7997 12.0947C18.5542 12.47 18.4557 12.6655 18.7997 13.1049C19.0265 13.4473 19.8256 14.1151 20.3635 14.7499C21.1452 15.5297 21.7944 16.4319 22.2853 17.4208C22.4808 18.0557 22.154 18.381 21.5035 18.381Z"/>
+    </symbol>
+    <!-- chevronTop -->
+    <symbol id="chevronTop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+        <path d="M7 15L12 10L17 15" />
+    </symbol>
+    <!-- filter -->
+    <symbol id="filter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+        <path d="M18 5H21" stroke="#141414" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M3 5H14" stroke="#141414" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M10 12H21" stroke="#141414" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M3 12H6" stroke="#141414" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M18 19H21" stroke="#141414" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M3 19H14" stroke="#141414" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M17.4142 3.58579C18.1953 4.36684 18.1953 5.63317 17.4142 6.41422C16.6332 7.19527 15.3668 7.19527 14.5858 6.41422C13.8047 5.63317 13.8047 4.36684 14.5858 3.58579C15.3668 2.80474 16.6332 2.80474 17.4142 3.58579" stroke="#141414" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M9.41422 10.5858C10.1953 11.3668 10.1953 12.6332 9.41422 13.4142C8.63317 14.1953 7.36684 14.1953 6.58579 13.4142C5.80474 12.6332 5.80474 11.3668 6.58579 10.5858C7.36684 9.80474 8.63317 9.80474 9.41422 10.5858" stroke="#141414" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M17.4142 17.5858C18.1953 18.3668 18.1953 19.6332 17.4142 20.4142C16.6332 21.1953 15.3668 21.1953 14.5858 20.4142C13.8047 19.6332 13.8047 18.3668 14.5858 17.5858C15.3668 16.8047 16.6332 16.8047 17.4142 17.5858" stroke="#141414" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+
+    <symbol id="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137 109">
+        <path id="Vector" d="M13.7,0H123.3A13.662,13.662,0,0,1,137,13.625v81.75A13.662,13.662,0,0,1,123.3,109H13.7A13.662,13.662,0,0,1,0,95.375V13.625A13.662,13.662,0,0,1,13.7,0ZM62.815,76.436,89.461,58.724a5.026,5.026,0,0,0,0-8.448L62.815,32.564a5.162,5.162,0,0,0-5.283-.281A5.106,5.106,0,0,0,54.8,36.787V72.212a5.106,5.106,0,0,0,2.732,4.505,5.162,5.162,0,0,0,5.283-.281Z" fill="#fff" fill-rule="evenodd"/>
+    </symbol>
+</svg>

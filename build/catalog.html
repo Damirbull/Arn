@@ -1,0 +1,3203 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- partial:parts/_head.html -->
+    <meta charset="utf-8">
+<title>Ollin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1, user-scalable=0">
+<link rel="stylesheet" href="css/libs.min.css"/>
+<link rel="stylesheet" href="css/main.css"/>
+<link href="img/favicon.png" rel="shortcut icon" type="image/x-icon" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!-- partial -->
+  </head>
+  <body>
+    <div class="layout">
+      <!-- partial:parts/_header.html -->
+      <header class="layout__header header">
+  <div class="container">
+    <!-- logo -->
+    <div class="header__logo logo">
+      <a class="logo__link" href="index.html">
+        <!-- partial:_logo.html -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="496" height="175" viewBox="0 0 496 175" fill="none">
+    <path d="M0 53.5833C0 38.2917 5.12743 25.5417 15.3823 15.3333C25.6371 5.125 38.9475 0 55.3134 0C71.6793 0 84.7176 4.875 95.0771 14.6458C105.437 24.4167 110.606 37.3958 110.606 53.5625C110.606 69.7292 105.374 81.9792 94.9306 92.0417C84.4665 102.104 71.2608 107.146 55.3134 107.146C39.3661 107.146 25.9092 102.271 15.5497 92.5C5.16928 82.7292 0 69.75 0 53.5833ZM25.2814 53.5833C25.2814 62.4583 28.2113 69.9167 34.0503 75.9375C39.8893 81.9583 46.984 84.9583 55.3134 84.9583C64.8358 84.9583 72.2025 82.0208 77.4555 76.1458C82.7085 70.2708 85.3246 62.75 85.3246 53.5833C85.3246 44.4167 82.4574 36.7708 76.7021 30.9375C70.9468 25.125 63.8103 22.2083 55.2925 22.2083C46.7747 22.2083 39.387 25.0833 33.7364 30.875C28.0857 36.6667 25.2604 44.2292 25.2604 53.5833H25.2814Z" fill="#141414"/>
+    <path d="M144.656 105.375V1.77051H168.452V83.1663H210.831V105.375H144.677H144.656Z" fill="#141414"/>
+    <path d="M240.236 105.375V1.77051H264.032V83.1663H306.412V105.375H240.257H240.236Z" fill="#141414"/>
+    <path d="M337.469 105.375V1.77051H361.264V105.375H337.469Z" fill="#141414"/>
+    <path d="M494.913 105.375H475.889L426.54 43.2288V105.375H404.23V1.77051H423.254L472.603 64.2288V1.77051H494.913V105.375Z" fill="#141414"/>
+    <path d="M17.8723 172.895H14.3145V143.729C14.8377 143.729 16.0934 143.729 18.0606 143.687C20.0279 143.666 21.3254 143.646 21.9742 143.646C25.825 143.646 28.5875 144.5 30.2827 146.208C31.9779 147.916 32.815 150.083 32.815 152.687C32.815 155.291 31.8942 157.416 30.0734 159.187C28.2527 160.958 25.6366 161.854 22.2672 161.854C20.6557 161.854 19.1907 161.791 17.8723 161.687V172.895ZM22.3091 146.979C21.1999 146.979 19.7139 147 17.8723 147.062V158.312C19.4628 158.458 20.8859 158.521 22.1416 158.521C24.2972 158.521 25.9715 158 27.2063 156.958C28.441 155.916 29.048 154.479 29.048 152.646C29.048 150.812 28.4829 149.479 27.3737 148.479C26.2645 147.479 24.5693 146.979 22.3091 146.979Z" fill="#141414"/>
+    <path d="M58.3469 172.895H54.7891V143.729C55.396 143.729 56.8191 143.729 59.0166 143.687C61.214 143.666 62.4279 143.646 62.6581 143.646C69.6063 143.646 73.0804 146.541 73.0804 152.312C73.0804 154.458 72.4525 156.25 71.2178 157.708C69.983 159.166 68.4761 160.125 66.7182 160.562L76.4708 172.895H72.1177L63.1185 161.229H58.3469V172.895ZM62.4488 146.979C61.5489 146.979 60.1886 147 58.3469 147.062V157.896H62.6581C64.437 157.896 66.0066 157.396 67.3251 156.375C68.6436 155.354 69.3133 154.021 69.3133 152.354C69.3133 148.771 67.0321 146.979 62.4488 146.979Z" fill="#141414"/>
+    <path d="M93.7598 158.312C93.7598 154.062 95.162 150.5 97.9873 147.625C100.813 144.75 104.37 143.312 108.703 143.312C113.035 143.312 116.572 144.708 119.397 147.521C122.222 150.333 123.645 153.917 123.645 158.312C123.645 162.708 122.222 166.187 119.376 169.042C116.53 171.896 112.972 173.313 108.703 173.313C104.433 173.313 100.834 171.917 98.0082 169.104C95.1829 166.292 93.7598 162.708 93.7598 158.312ZM97.5269 158.312C97.5269 161.625 98.5942 164.396 100.75 166.625C102.905 168.854 105.542 169.979 108.703 169.979C111.863 169.979 114.688 168.875 116.76 166.646C118.832 164.417 119.878 161.646 119.878 158.312C119.878 154.979 118.811 152.167 116.655 149.958C114.5 147.75 111.863 146.646 108.703 146.646C105.542 146.646 102.822 147.75 100.708 149.938C98.5942 152.125 97.5269 154.917 97.5269 158.312Z" fill="#141414"/>
+    <path d="M145.619 172.896V143.729H162.152V147.063H149.177V157.396H160.897V160.729H149.177V172.896H145.619Z" fill="#141414"/>
+    <path d="M183.666 172.896V143.729H200.199V147.063H187.224V156.479H198.944V159.813H187.224V169.563H200.618V172.896H183.666Z" fill="#141414"/>
+    <path d="M235.882 165.438C235.882 164.458 235.61 163.625 235.087 162.896C234.563 162.167 233.873 161.583 233.036 161.125C232.199 160.667 231.278 160.229 230.252 159.812C229.227 159.396 228.222 158.937 227.197 158.458C226.171 157.979 225.25 157.417 224.413 156.812C223.576 156.208 222.886 155.396 222.362 154.396C221.839 153.396 221.567 152.25 221.567 150.937C221.567 148.771 222.362 146.958 223.953 145.5C225.543 144.042 227.699 143.312 230.399 143.312C232.073 143.312 233.622 143.583 235.066 144.146C236.51 144.708 237.64 145.437 238.477 146.354L236.552 149.021C234.961 147.437 232.973 146.646 230.608 146.646C228.997 146.646 227.699 147.042 226.757 147.812C225.815 148.583 225.334 149.625 225.334 150.937C225.334 151.917 225.606 152.75 226.129 153.479C226.653 154.208 227.343 154.792 228.18 155.229C229.017 155.667 229.938 156.104 230.964 156.5C231.989 156.896 232.994 157.333 234.019 157.812C235.045 158.292 235.966 158.812 236.803 159.417C237.64 160.021 238.331 160.833 238.854 161.854C239.377 162.875 239.649 164.062 239.649 165.396C239.649 167.75 238.728 169.667 236.907 171.125C235.087 172.583 232.806 173.313 230.106 173.313C228.201 173.313 226.36 172.917 224.581 172.125C222.802 171.333 221.546 170.271 220.855 168.937L222.906 166.521C223.744 167.604 224.832 168.458 226.171 169.063C227.511 169.667 228.829 169.979 230.148 169.979C231.759 169.979 233.119 169.583 234.229 168.771C235.338 167.958 235.882 166.854 235.882 165.438Z" fill="#141414"/>
+    <path d="M274.329 165.438C274.329 164.458 274.057 163.625 273.534 162.896C273.011 162.167 272.32 161.583 271.483 161.125C270.646 160.667 269.725 160.229 268.7 159.812C267.674 159.396 266.669 158.937 265.644 158.458C264.619 157.979 263.698 157.417 262.861 156.812C262.023 156.208 261.333 155.396 260.81 154.396C260.286 153.396 260.014 152.25 260.014 150.937C260.014 148.771 260.81 146.958 262.4 145.5C263.991 144.042 266.146 143.312 268.846 143.312C270.52 143.312 272.069 143.583 273.513 144.146C274.957 144.708 276.087 145.437 276.924 146.354L274.999 149.021C273.408 147.437 271.42 146.646 269.055 146.646C267.444 146.646 266.146 147.042 265.205 147.812C264.263 148.583 263.781 149.625 263.781 150.937C263.781 151.917 264.053 152.75 264.577 153.479C265.1 154.208 265.791 154.792 266.628 155.229C267.465 155.667 268.386 156.104 269.411 156.5C270.437 156.896 271.441 157.333 272.467 157.812C273.492 158.292 274.413 158.812 275.25 159.417C276.087 160.021 276.778 160.833 277.301 161.854C277.824 162.875 278.096 164.062 278.096 165.396C278.096 167.75 277.175 169.667 275.355 171.125C273.534 172.583 271.253 173.313 268.553 173.313C266.649 173.313 264.807 172.917 263.028 172.125C261.249 171.333 259.993 170.271 259.303 168.937L261.354 166.521C262.191 167.604 263.279 168.458 264.619 169.063C265.958 169.667 267.276 169.979 268.595 169.979C270.206 169.979 271.567 169.583 272.676 168.771C273.785 167.958 274.329 166.854 274.329 165.438Z" fill="#141414"/>
+    <path d="M300.928 172.896V143.729H304.486V172.896H300.928Z" fill="#141414"/>
+    <path d="M327.299 158.312C327.299 154.062 328.701 150.5 331.526 147.625C334.352 144.75 337.909 143.312 342.242 143.312C346.574 143.312 350.111 144.708 352.936 147.521C355.761 150.333 357.184 153.917 357.184 158.312C357.184 162.708 355.761 166.187 352.915 169.042C350.069 171.896 346.511 173.313 342.242 173.313C337.972 173.313 334.373 171.917 331.547 169.104C328.722 166.292 327.299 162.708 327.299 158.312ZM331.066 158.312C331.066 161.625 332.133 164.396 334.289 166.625C336.444 168.854 339.081 169.979 342.242 169.979C345.402 169.979 348.227 168.875 350.299 166.646C352.371 164.417 353.417 161.646 353.417 158.312C353.417 154.979 352.35 152.167 350.194 149.958C348.039 147.75 345.402 146.646 342.242 146.646C339.081 146.646 336.361 147.75 334.247 149.938C332.133 152.125 331.066 154.917 331.066 158.312Z" fill="#141414"/>
+    <path d="M403.603 172.896H400.757L382.466 149.979V172.896H379.117V143.729H381.963L400.255 166.729V143.729H403.603V172.896Z" fill="#141414"/>
+    <path d="M424.072 172.896L436.671 143.562H439.727L452.325 172.896H448.516L444.749 164.062H431.397L427.672 172.896H424.072ZM438.094 148.271L432.82 160.729H443.368L438.094 148.271Z" fill="#141414"/>
+    <path d="M472.916 172.896V143.729H476.474V169.563H490.914V172.896H472.916Z" fill="#141414"/>
+</svg>
+        <!-- partial -->
+      </a>
+    </div>
+    <div class="header__layout">
+      <!-- search -->
+      <div class="header__search search">
+        <form class="search__formular" action="index.html">
+          <div class="search__header">
+            <label class="search__label" for="search__input">Поиск</label>
+          </div>
+          <div class="search__main">
+            <div class="search__field">
+              <input
+                id="search__input"
+                class="search__input"
+                type="text"
+                placeholder="Поиск"
+              />
+            </div>
+            <div class="search__flipping">
+              <flipping class="search__btn" type="submit">
+                <svg class="search__ico">
+                  <use xlink:href="img/sprite.svg#search"></use>
+                </svg>
+              </flipping>
+            </div>
+          </div>
+          <div class="search__footer">
+            <span class="btn btn_underline">
+              <span class="btn__text">Закрыть</span>
+            </span>
+          </div>
+        </form>
+      </div>
+      <!-- nav -->
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">О нас</a></li>
+          <li class="nav__item"><a href="catalog.html" class="nav__link">Каталог</a></li>
+          <li class="nav__item"><a href="articles.html" class="nav__link">Блог</a></li>
+          <li class="nav__item"><a href="programs.html" class="nav__link">Обучение</a></li>
+          <li class="nav__item"><a href="contact.html" class="nav__link">Контакты</a></li>
+        </ul>
+        <!-- //nav__list -->
+      </nav>
+      <!-- //nav -->
+      <!-- callback -->
+      <div class="header__callback callback">
+        <span class="btn modal-init" data-modalname="modal__layout_callback">
+          <span class="btn__text">Обратная связь</span>
+        </span>
+      </div>
+
+    </div>
+    <!-- burger -->
+    <div class="header__burger burger">
+      <span class="burger__item"></span>
+      <span class="burger__item"></span>
+      <span class="burger__item"></span>
+    </div>
+  </div>
+  <!-- //container -->
+</header>
+<!-- //header -->
+
+      <!-- partial -->
+      <!-- BANNER -->
+      <div class="layout__banner banner">
+        <div class="banner__media">
+          <img
+            data-src="img/content/banner/banner__img01.jpg"
+            src="img/preview.jpg"
+            alt="image description"
+          />
+        </div>
+        <div class="banner__main">
+          <div class="wysiwyg">
+            <h1>Каталог</h1>
+          </div>
+        </div>
+      </div>
+      <main class="layout__main">
+        <div class="container">
+          <!-- wrapper -->
+          <div class="layout__section section">
+            <div class="section__main">
+            <div class="layout__wrapper wrapper">
+              <div class="filter layout__filter layout__filter_horizontal">
+                <div class="filter__toggle toggle">
+                  <div class="toggle__action">
+                    <span class="toggle__text">Фильтр</span>
+                    <svg class="toggle__ico">
+                      <use xlink:href="img/sprite.svg#filter"></use>
+                    </svg>
+                  </div>
+                  <div class="toggle__count count">
+                    <span class="count__text">128</span>
+                  </div>
+                </div>
+                <div class="filter__tags tags">
+                  <div class="tags__list">
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Basic line</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Bionika</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Care</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Cocktail bar</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Curl & smooth hair</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Curl hair</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Fashion color</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Full force</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Ice cream</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Premier for men</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Salon beauty</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Service line</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Shine blond</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Ultimate care</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Сыворотка</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Технологические средства</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Вьющиеся и непослушные</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text"
+                          >Нормальные и неокрашенные</span
+                        >
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Аммиачное</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item">
+                      <div class="tags__title">
+                        <span class="tags__text">Безаммиачное</span>
+                      </div>
+                      <div class="tags__action">
+                        <svg class="tags__ico">
+                          <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="tags__item tags__item_secondary">
+                      <div class="tags__title">
+                        <span class="tags__text">Сбросить все</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <aside class="filter layout__filter layout__filter_vertical">
+                <div class="filter__header">
+                  <div class="wysiwyg">
+                    <h3>Фильтры</h3>
+                  </div>
+                </div>
+                <div class="filter__action">
+                  <svg class="filter__ico">
+                    <use xlink:href="img/sprite.svg#close"></use>
+                  </svg>
+                </div>
+                <div class="filter__main">
+                  <div class="filter__group group">
+                    <div class="group__header">
+                      <span class="group__title">Окрашивание</span>
+                    </div>
+                    <div class="group__main">
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Аммиачное</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Безаммиачное</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Пигмент прямого действия</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Тонирующие средства</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="group__footer">
+                      <div class="filter__more btn btn_underlineSecondary">
+                        <span class="btn__text">Свернуть</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="filter__group group">
+                    <div class="group__header">
+                      <span class="group__title">Серия</span>
+                    </div>
+                    <div class="group__main">
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Basic line</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Bionika</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Care</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Cocktail bar</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Cocktail bar</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Curl & smooth hair</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Curl hair</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Fashion color</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Full force</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Ice cream</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Intense profi color</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Keratin royal treatment</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Keratin system</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Matisse color</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Megapolis</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">N-joy</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Ollin color</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Perfect hair</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Performance</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Platinum Collection</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Premier for men</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Salon beauty</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Service line</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Shine blond</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Silk touch</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Ultimate care</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Vision</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">X-plex</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="filter__group group">
+                    <div class="group__header">
+                      <span class="group__title">По типу продукта</span>
+                    </div>
+                    <div class="group__main">
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Бальзам/кондиционер</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Маска</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Набор</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Несмываемый уход</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Сыворотка</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Технологические средства</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Шампунь</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="filter__group group">
+                    <div class="group__header">
+                      <span class="group__title"
+                        >По типу волос и кожи головы</span
+                      >
+                    </div>
+                    <div class="group__main">
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Все типы волос</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Выпадение волос</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Вьющиеся и непослушные</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Нормальные и неокрашенные</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Окрашенные и обесцвеченные</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Перхоть</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Поврежденные</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Сухие и ломкие</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text">Тонкие</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-item">
+                        <div class="form-item__main">
+                          <div class="custom-check">
+                            <label class="custom-check__label">
+                              <input
+                                class="custom-check__input"
+                                type="checkbox"
+                                name="checkbox"
+                              />
+                              <svg
+                                class="custom-check__ico custom-check__ico_before"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxBefore"
+                                ></use>
+                              </svg>
+                              <svg
+                                class="custom-check__ico custom-check__ico_after"
+                              >
+                                <use
+                                  xlink:href="img/sprite.svg#checkboxAfter"
+                                ></use>
+                              </svg>
+                              <span class="custom-check__text"
+                                >Чувствительная кожа головы</span
+                              >
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__footer">
+                  <div class="filter__submit btn">
+                    <span class="btn__text">Применить</span>
+                  </div>
+                </div>
+              </aside>
+              <div class="wrapper__main">
+                <div class="layout__products products">
+                  <div class="products__list products__list_secondary">
+                    <div class="products__item">
+                      <a class="products__link" href="product.html">
+                        <div class="products__labels labels">
+                          <div class="labels__list">
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ffd142"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="16"
+                                viewBox="0 0 20 16"
+                                fill="none"
+                              >
+                                <path
+                                  d="M3.73069 14.9296L14.8407 0.0576172L16.2707 1.13562L5.18269 15.9416L3.73069 14.9296ZM2.01469 6.87762C1.20802 6.14428 0.804688 5.19095 0.804688 4.01762C0.804688 2.84428 1.20802 1.89828 2.01469 1.17962C2.83602 0.46095 3.87735 0.101617 5.13869 0.101617C6.40002 0.101617 7.43402 0.46095 8.24069 1.17962C9.06202 1.89828 9.47269 2.84428 9.47269 4.01762C9.47269 5.19095 9.06202 6.14428 8.24069 6.87762C7.43402 7.59628 6.40002 7.95562 5.13869 7.95562C3.87735 7.95562 2.83602 7.59628 2.01469 6.87762ZM3.18069 4.01762C3.18069 4.58962 3.36402 5.05162 3.73069 5.40362C4.11202 5.74095 4.58135 5.90962 5.13869 5.90962C5.72535 5.90962 6.20202 5.74095 6.56869 5.40362C6.93535 5.05162 7.11869 4.58962 7.11869 4.01762C7.11869 3.46028 6.92802 3.01295 6.54669 2.67562C6.18002 2.32362 5.71069 2.14762 5.13869 2.14762C4.58135 2.14762 4.11202 2.32362 3.73069 2.67562C3.36402 3.01295 3.18069 3.46028 3.18069 4.01762ZM11.7387 14.8416C10.932 14.1083 10.5287 13.155 10.5287 11.9816C10.5287 10.8083 10.932 9.86228 11.7387 9.14362C12.56 8.42495 13.6014 8.06562 14.8627 8.06562C16.124 8.06562 17.158 8.42495 17.9647 9.14362C18.786 9.86228 19.1967 10.8083 19.1967 11.9816C19.1967 13.155 18.786 14.1083 17.9647 14.8416C17.158 15.5603 16.124 15.9196 14.8627 15.9196C13.6014 15.9196 12.56 15.5603 11.7387 14.8416ZM12.9047 11.9816C12.9047 12.5536 13.088 13.0156 13.4547 13.3676C13.836 13.705 14.3054 13.8736 14.8627 13.8736C15.4494 13.8736 15.926 13.705 16.2927 13.3676C16.6594 13.0156 16.8427 12.5536 16.8427 11.9816C16.8427 11.4243 16.652 10.977 16.2707 10.6396C15.904 10.2876 15.4347 10.1116 14.8627 10.1116C14.3054 10.1116 13.836 10.2876 13.4547 10.6396C13.088 10.977 12.9047 11.4243 12.9047 11.9816Z"
+                                  fill="#141414"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__media">
+                          <img
+                            class="products__img products__img_primary"
+                            data-src="img/content/products/products__img01.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                          <img
+                            class="products__img products__img_secondary"
+                            data-src="img/content/products/products__img01-2.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                        </div>
+                        <div class="products__main">
+                          <span class="products__title">salon beauty</span>
+                          <span class="products__subtitle"
+                            >Кондиционер для окрашенных волос с маслом
+                            виноградной косточки</span
+                          >
+                        </div>
+                      </a>
+                    </div>
+                    <div class="products__item">
+                      <a class="products__link" href="product.html">
+                        <div class="products__labels labels">
+                          <div class="labels__list">
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ffd142"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="16"
+                                viewBox="0 0 20 16"
+                                fill="none"
+                              >
+                                <path
+                                  d="M3.73069 14.9296L14.8407 0.0576172L16.2707 1.13562L5.18269 15.9416L3.73069 14.9296ZM2.01469 6.87762C1.20802 6.14428 0.804688 5.19095 0.804688 4.01762C0.804688 2.84428 1.20802 1.89828 2.01469 1.17962C2.83602 0.46095 3.87735 0.101617 5.13869 0.101617C6.40002 0.101617 7.43402 0.46095 8.24069 1.17962C9.06202 1.89828 9.47269 2.84428 9.47269 4.01762C9.47269 5.19095 9.06202 6.14428 8.24069 6.87762C7.43402 7.59628 6.40002 7.95562 5.13869 7.95562C3.87735 7.95562 2.83602 7.59628 2.01469 6.87762ZM3.18069 4.01762C3.18069 4.58962 3.36402 5.05162 3.73069 5.40362C4.11202 5.74095 4.58135 5.90962 5.13869 5.90962C5.72535 5.90962 6.20202 5.74095 6.56869 5.40362C6.93535 5.05162 7.11869 4.58962 7.11869 4.01762C7.11869 3.46028 6.92802 3.01295 6.54669 2.67562C6.18002 2.32362 5.71069 2.14762 5.13869 2.14762C4.58135 2.14762 4.11202 2.32362 3.73069 2.67562C3.36402 3.01295 3.18069 3.46028 3.18069 4.01762ZM11.7387 14.8416C10.932 14.1083 10.5287 13.155 10.5287 11.9816C10.5287 10.8083 10.932 9.86228 11.7387 9.14362C12.56 8.42495 13.6014 8.06562 14.8627 8.06562C16.124 8.06562 17.158 8.42495 17.9647 9.14362C18.786 9.86228 19.1967 10.8083 19.1967 11.9816C19.1967 13.155 18.786 14.1083 17.9647 14.8416C17.158 15.5603 16.124 15.9196 14.8627 15.9196C13.6014 15.9196 12.56 15.5603 11.7387 14.8416ZM12.9047 11.9816C12.9047 12.5536 13.088 13.0156 13.4547 13.3676C13.836 13.705 14.3054 13.8736 14.8627 13.8736C15.4494 13.8736 15.926 13.705 16.2927 13.3676C16.6594 13.0156 16.8427 12.5536 16.8427 11.9816C16.8427 11.4243 16.652 10.977 16.2707 10.6396C15.904 10.2876 15.4347 10.1116 14.8627 10.1116C14.3054 10.1116 13.836 10.2876 13.4547 10.6396C13.088 10.977 12.9047 11.4243 12.9047 11.9816Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__media">
+                          <img
+                            class="products__img products__img_primary"
+                            data-src="img/content/products/products__img02.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                          <img
+                            class="products__img products__img_secondary"
+                            data-src="img/content/products/products__img02-2.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                        </div>
+                        <div class="products__main">
+                          <span class="products__title">salon beauty</span>
+                          <span class="products__subtitle"
+                            >Шампунь для волос с экстрактом ламинарии</span
+                          >
+                        </div>
+                      </a>
+                    </div>
+                    <div class="products__item">
+                      <a class="products__link" href="product.html">
+                        <div class="products__labels labels">
+                          <div class="labels__list">
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ffd142"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="16"
+                                viewBox="0 0 20 16"
+                                fill="none"
+                              >
+                                <path
+                                  d="M3.73069 14.9296L14.8407 0.0576172L16.2707 1.13562L5.18269 15.9416L3.73069 14.9296ZM2.01469 6.87762C1.20802 6.14428 0.804688 5.19095 0.804688 4.01762C0.804688 2.84428 1.20802 1.89828 2.01469 1.17962C2.83602 0.46095 3.87735 0.101617 5.13869 0.101617C6.40002 0.101617 7.43402 0.46095 8.24069 1.17962C9.06202 1.89828 9.47269 2.84428 9.47269 4.01762C9.47269 5.19095 9.06202 6.14428 8.24069 6.87762C7.43402 7.59628 6.40002 7.95562 5.13869 7.95562C3.87735 7.95562 2.83602 7.59628 2.01469 6.87762ZM3.18069 4.01762C3.18069 4.58962 3.36402 5.05162 3.73069 5.40362C4.11202 5.74095 4.58135 5.90962 5.13869 5.90962C5.72535 5.90962 6.20202 5.74095 6.56869 5.40362C6.93535 5.05162 7.11869 4.58962 7.11869 4.01762C7.11869 3.46028 6.92802 3.01295 6.54669 2.67562C6.18002 2.32362 5.71069 2.14762 5.13869 2.14762C4.58135 2.14762 4.11202 2.32362 3.73069 2.67562C3.36402 3.01295 3.18069 3.46028 3.18069 4.01762ZM11.7387 14.8416C10.932 14.1083 10.5287 13.155 10.5287 11.9816C10.5287 10.8083 10.932 9.86228 11.7387 9.14362C12.56 8.42495 13.6014 8.06562 14.8627 8.06562C16.124 8.06562 17.158 8.42495 17.9647 9.14362C18.786 9.86228 19.1967 10.8083 19.1967 11.9816C19.1967 13.155 18.786 14.1083 17.9647 14.8416C17.158 15.5603 16.124 15.9196 14.8627 15.9196C13.6014 15.9196 12.56 15.5603 11.7387 14.8416ZM12.9047 11.9816C12.9047 12.5536 13.088 13.0156 13.4547 13.3676C13.836 13.705 14.3054 13.8736 14.8627 13.8736C15.4494 13.8736 15.926 13.705 16.2927 13.3676C16.6594 13.0156 16.8427 12.5536 16.8427 11.9816C16.8427 11.4243 16.652 10.977 16.2707 10.6396C15.904 10.2876 15.4347 10.1116 14.8627 10.1116C14.3054 10.1116 13.836 10.2876 13.4547 10.6396C13.088 10.977 12.9047 11.4243 12.9047 11.9816Z"
+                                  fill="#141414"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__media">
+                          <img
+                            class="products__img products__img_primary"
+                            data-src="img/content/products/products__img03.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                          <img
+                            class="products__img products__img_secondary"
+                            data-src="img/content/products/products__img03-2.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                        </div>
+                        <div class="products__main">
+                          <span class="products__title">PERFECT HAIR</span>
+                          <span class="products__subtitle"
+                            >Сухое масло-спрей для волос</span
+                          >
+                        </div>
+                      </a>
+                    </div>
+                    <div class="products__item">
+                      <a class="products__link" href="product.html">
+                        <div class="products__labels labels">
+                          <div class="labels__list">
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ffd142"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="16"
+                                viewBox="0 0 20 16"
+                                fill="none"
+                              >
+                                <path
+                                  d="M3.73069 14.9296L14.8407 0.0576172L16.2707 1.13562L5.18269 15.9416L3.73069 14.9296ZM2.01469 6.87762C1.20802 6.14428 0.804688 5.19095 0.804688 4.01762C0.804688 2.84428 1.20802 1.89828 2.01469 1.17962C2.83602 0.46095 3.87735 0.101617 5.13869 0.101617C6.40002 0.101617 7.43402 0.46095 8.24069 1.17962C9.06202 1.89828 9.47269 2.84428 9.47269 4.01762C9.47269 5.19095 9.06202 6.14428 8.24069 6.87762C7.43402 7.59628 6.40002 7.95562 5.13869 7.95562C3.87735 7.95562 2.83602 7.59628 2.01469 6.87762ZM3.18069 4.01762C3.18069 4.58962 3.36402 5.05162 3.73069 5.40362C4.11202 5.74095 4.58135 5.90962 5.13869 5.90962C5.72535 5.90962 6.20202 5.74095 6.56869 5.40362C6.93535 5.05162 7.11869 4.58962 7.11869 4.01762C7.11869 3.46028 6.92802 3.01295 6.54669 2.67562C6.18002 2.32362 5.71069 2.14762 5.13869 2.14762C4.58135 2.14762 4.11202 2.32362 3.73069 2.67562C3.36402 3.01295 3.18069 3.46028 3.18069 4.01762ZM11.7387 14.8416C10.932 14.1083 10.5287 13.155 10.5287 11.9816C10.5287 10.8083 10.932 9.86228 11.7387 9.14362C12.56 8.42495 13.6014 8.06562 14.8627 8.06562C16.124 8.06562 17.158 8.42495 17.9647 9.14362C18.786 9.86228 19.1967 10.8083 19.1967 11.9816C19.1967 13.155 18.786 14.1083 17.9647 14.8416C17.158 15.5603 16.124 15.9196 14.8627 15.9196C13.6014 15.9196 12.56 15.5603 11.7387 14.8416ZM12.9047 11.9816C12.9047 12.5536 13.088 13.0156 13.4547 13.3676C13.836 13.705 14.3054 13.8736 14.8627 13.8736C15.4494 13.8736 15.926 13.705 16.2927 13.3676C16.6594 13.0156 16.8427 12.5536 16.8427 11.9816C16.8427 11.4243 16.652 10.977 16.2707 10.6396C15.904 10.2876 15.4347 10.1116 14.8627 10.1116C14.3054 10.1116 13.836 10.2876 13.4547 10.6396C13.088 10.977 12.9047 11.4243 12.9047 11.9816Z"
+                                  fill="#141414"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__media">
+                          <img
+                            class="products__img products__img_primary"
+                            data-src="img/content/products/products__img04.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                          <img
+                            class="products__img products__img_secondary"
+                            data-src="img/content/products/products__img04-2.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                        </div>
+                        <div class="products__main">
+                          <span class="products__title">Anti-yellow</span>
+                          <span class="products__subtitle"
+                            >Антижёлтый шампунь для волос</span
+                          >
+                        </div>
+                      </a>
+                    </div>
+                    <div class="products__item">
+                      <a class="products__link" href="product.html">
+                        <div class="products__labels labels">
+                          <div class="labels__list">
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ffd142"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="16"
+                                viewBox="0 0 20 16"
+                                fill="none"
+                              >
+                                <path
+                                  d="M3.73069 14.9296L14.8407 0.0576172L16.2707 1.13562L5.18269 15.9416L3.73069 14.9296ZM2.01469 6.87762C1.20802 6.14428 0.804688 5.19095 0.804688 4.01762C0.804688 2.84428 1.20802 1.89828 2.01469 1.17962C2.83602 0.46095 3.87735 0.101617 5.13869 0.101617C6.40002 0.101617 7.43402 0.46095 8.24069 1.17962C9.06202 1.89828 9.47269 2.84428 9.47269 4.01762C9.47269 5.19095 9.06202 6.14428 8.24069 6.87762C7.43402 7.59628 6.40002 7.95562 5.13869 7.95562C3.87735 7.95562 2.83602 7.59628 2.01469 6.87762ZM3.18069 4.01762C3.18069 4.58962 3.36402 5.05162 3.73069 5.40362C4.11202 5.74095 4.58135 5.90962 5.13869 5.90962C5.72535 5.90962 6.20202 5.74095 6.56869 5.40362C6.93535 5.05162 7.11869 4.58962 7.11869 4.01762C7.11869 3.46028 6.92802 3.01295 6.54669 2.67562C6.18002 2.32362 5.71069 2.14762 5.13869 2.14762C4.58135 2.14762 4.11202 2.32362 3.73069 2.67562C3.36402 3.01295 3.18069 3.46028 3.18069 4.01762ZM11.7387 14.8416C10.932 14.1083 10.5287 13.155 10.5287 11.9816C10.5287 10.8083 10.932 9.86228 11.7387 9.14362C12.56 8.42495 13.6014 8.06562 14.8627 8.06562C16.124 8.06562 17.158 8.42495 17.9647 9.14362C18.786 9.86228 19.1967 10.8083 19.1967 11.9816C19.1967 13.155 18.786 14.1083 17.9647 14.8416C17.158 15.5603 16.124 15.9196 14.8627 15.9196C13.6014 15.9196 12.56 15.5603 11.7387 14.8416ZM12.9047 11.9816C12.9047 12.5536 13.088 13.0156 13.4547 13.3676C13.836 13.705 14.3054 13.8736 14.8627 13.8736C15.4494 13.8736 15.926 13.705 16.2927 13.3676C16.6594 13.0156 16.8427 12.5536 16.8427 11.9816C16.8427 11.4243 16.652 10.977 16.2707 10.6396C15.904 10.2876 15.4347 10.1116 14.8627 10.1116C14.3054 10.1116 13.836 10.2876 13.4547 10.6396C13.088 10.977 12.9047 11.4243 12.9047 11.9816Z"
+                                  fill="#141414"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__media">
+                          <img
+                            class="products__img products__img_primary"
+                            data-src="img/content/products/products__img01.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                          <img
+                            class="products__img products__img_secondary"
+                            data-src="img/content/products/products__img01-2.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                        </div>
+                        <div class="products__main">
+                          <span class="products__title">salon beauty</span>
+                          <span class="products__subtitle"
+                            >Кондиционер для окрашенных волос с маслом
+                            виноградной косточки</span
+                          >
+                        </div>
+                      </a>
+                    </div>
+                    <div class="products__item">
+                      <a class="products__link" href="product.html">
+                        <div class="products__labels labels">
+                          <div class="labels__list">
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ffd142"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="16"
+                                viewBox="0 0 20 16"
+                                fill="none"
+                              >
+                                <path
+                                  d="M3.73069 14.9296L14.8407 0.0576172L16.2707 1.13562L5.18269 15.9416L3.73069 14.9296ZM2.01469 6.87762C1.20802 6.14428 0.804688 5.19095 0.804688 4.01762C0.804688 2.84428 1.20802 1.89828 2.01469 1.17962C2.83602 0.46095 3.87735 0.101617 5.13869 0.101617C6.40002 0.101617 7.43402 0.46095 8.24069 1.17962C9.06202 1.89828 9.47269 2.84428 9.47269 4.01762C9.47269 5.19095 9.06202 6.14428 8.24069 6.87762C7.43402 7.59628 6.40002 7.95562 5.13869 7.95562C3.87735 7.95562 2.83602 7.59628 2.01469 6.87762ZM3.18069 4.01762C3.18069 4.58962 3.36402 5.05162 3.73069 5.40362C4.11202 5.74095 4.58135 5.90962 5.13869 5.90962C5.72535 5.90962 6.20202 5.74095 6.56869 5.40362C6.93535 5.05162 7.11869 4.58962 7.11869 4.01762C7.11869 3.46028 6.92802 3.01295 6.54669 2.67562C6.18002 2.32362 5.71069 2.14762 5.13869 2.14762C4.58135 2.14762 4.11202 2.32362 3.73069 2.67562C3.36402 3.01295 3.18069 3.46028 3.18069 4.01762ZM11.7387 14.8416C10.932 14.1083 10.5287 13.155 10.5287 11.9816C10.5287 10.8083 10.932 9.86228 11.7387 9.14362C12.56 8.42495 13.6014 8.06562 14.8627 8.06562C16.124 8.06562 17.158 8.42495 17.9647 9.14362C18.786 9.86228 19.1967 10.8083 19.1967 11.9816C19.1967 13.155 18.786 14.1083 17.9647 14.8416C17.158 15.5603 16.124 15.9196 14.8627 15.9196C13.6014 15.9196 12.56 15.5603 11.7387 14.8416ZM12.9047 11.9816C12.9047 12.5536 13.088 13.0156 13.4547 13.3676C13.836 13.705 14.3054 13.8736 14.8627 13.8736C15.4494 13.8736 15.926 13.705 16.2927 13.3676C16.6594 13.0156 16.8427 12.5536 16.8427 11.9816C16.8427 11.4243 16.652 10.977 16.2707 10.6396C15.904 10.2876 15.4347 10.1116 14.8627 10.1116C14.3054 10.1116 13.836 10.2876 13.4547 10.6396C13.088 10.977 12.9047 11.4243 12.9047 11.9816Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__media">
+                          <img
+                            class="products__img products__img_primary"
+                            data-src="img/content/products/products__img02.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                          <img
+                            class="products__img products__img_secondary"
+                            data-src="img/content/products/products__img02-2.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                        </div>
+                        <div class="products__main">
+                          <span class="products__title">salon beauty</span>
+                          <span class="products__subtitle"
+                            >Шампунь для волос с экстрактом ламинарии</span
+                          >
+                        </div>
+                      </a>
+                    </div>
+                    <div class="products__slider slider">
+                      <div class="slider__list">
+                        <div class="slider__item">
+                          <a class="slider__link" href="#">
+                            <div class="slider__media">
+                              <img
+                                data-src="img/content/products/slider__img01.jpg"
+                                src="img/preview.jpg"
+                                alt="image description"
+                              />
+                            </div>
+                            <div class="slider__layout">
+                              <div class="slider__header">
+                                <div class="wysiwyg">
+                                  <h3>Не бойтесь эксперементов</h3>
+                                </div>
+                              </div>
+                              <div class="slider__main">
+                                <div class="wysiwyg">
+                                  <p>
+                                    Расскажем как правильно подобрать уход<br />
+                                    за волосами с экспертами в области
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="slider__item">
+                          <a class="slider__link" href="#">
+                            <div class="slider__media">
+                              <img
+                                data-src="img/content/products/slider__img02.jpg"
+                                src="img/preview.jpg"
+                                alt="image description"
+                              />
+                            </div>
+                            <div class="slider__layout">
+                              <div class="slider__header">
+                                <div class="wysiwyg">
+                                  <h3>Не бойтесь эксперементов</h3>
+                                </div>
+                              </div>
+                              <div class="slider__main">
+                                <div class="wysiwyg">
+                                  <p>
+                                    Расскажем как правильно подобрать уход<br />
+                                    за волосами с экспертами в области
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="products__item">
+                      <a class="products__link" href="product.html">
+                        <div class="products__labels labels">
+                          <div class="labels__list">
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ffd142"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="16"
+                                viewBox="0 0 20 16"
+                                fill="none"
+                              >
+                                <path
+                                  d="M3.73069 14.9296L14.8407 0.0576172L16.2707 1.13562L5.18269 15.9416L3.73069 14.9296ZM2.01469 6.87762C1.20802 6.14428 0.804688 5.19095 0.804688 4.01762C0.804688 2.84428 1.20802 1.89828 2.01469 1.17962C2.83602 0.46095 3.87735 0.101617 5.13869 0.101617C6.40002 0.101617 7.43402 0.46095 8.24069 1.17962C9.06202 1.89828 9.47269 2.84428 9.47269 4.01762C9.47269 5.19095 9.06202 6.14428 8.24069 6.87762C7.43402 7.59628 6.40002 7.95562 5.13869 7.95562C3.87735 7.95562 2.83602 7.59628 2.01469 6.87762ZM3.18069 4.01762C3.18069 4.58962 3.36402 5.05162 3.73069 5.40362C4.11202 5.74095 4.58135 5.90962 5.13869 5.90962C5.72535 5.90962 6.20202 5.74095 6.56869 5.40362C6.93535 5.05162 7.11869 4.58962 7.11869 4.01762C7.11869 3.46028 6.92802 3.01295 6.54669 2.67562C6.18002 2.32362 5.71069 2.14762 5.13869 2.14762C4.58135 2.14762 4.11202 2.32362 3.73069 2.67562C3.36402 3.01295 3.18069 3.46028 3.18069 4.01762ZM11.7387 14.8416C10.932 14.1083 10.5287 13.155 10.5287 11.9816C10.5287 10.8083 10.932 9.86228 11.7387 9.14362C12.56 8.42495 13.6014 8.06562 14.8627 8.06562C16.124 8.06562 17.158 8.42495 17.9647 9.14362C18.786 9.86228 19.1967 10.8083 19.1967 11.9816C19.1967 13.155 18.786 14.1083 17.9647 14.8416C17.158 15.5603 16.124 15.9196 14.8627 15.9196C13.6014 15.9196 12.56 15.5603 11.7387 14.8416ZM12.9047 11.9816C12.9047 12.5536 13.088 13.0156 13.4547 13.3676C13.836 13.705 14.3054 13.8736 14.8627 13.8736C15.4494 13.8736 15.926 13.705 16.2927 13.3676C16.6594 13.0156 16.8427 12.5536 16.8427 11.9816C16.8427 11.4243 16.652 10.977 16.2707 10.6396C15.904 10.2876 15.4347 10.1116 14.8627 10.1116C14.3054 10.1116 13.836 10.2876 13.4547 10.6396C13.088 10.977 12.9047 11.4243 12.9047 11.9816Z"
+                                  fill="#141414"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__media">
+                          <img
+                            class="products__img products__img_primary"
+                            data-src="img/content/products/products__img01.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                          <img
+                            class="products__img products__img_secondary"
+                            data-src="img/content/products/products__img01-2.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                        </div>
+                        <div class="products__main">
+                          <span class="products__title">salon beauty</span>
+                          <span class="products__subtitle"
+                            >Кондиционер для окрашенных волос с маслом
+                            виноградной косточки</span
+                          >
+                        </div>
+                      </a>
+                    </div>
+                    <div class="products__item">
+                      <a class="products__link" href="product.html">
+                        <div class="products__labels labels">
+                          <div class="labels__list">
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ffd142"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="16"
+                                viewBox="0 0 20 16"
+                                fill="none"
+                              >
+                                <path
+                                  d="M3.73069 14.9296L14.8407 0.0576172L16.2707 1.13562L5.18269 15.9416L3.73069 14.9296ZM2.01469 6.87762C1.20802 6.14428 0.804688 5.19095 0.804688 4.01762C0.804688 2.84428 1.20802 1.89828 2.01469 1.17962C2.83602 0.46095 3.87735 0.101617 5.13869 0.101617C6.40002 0.101617 7.43402 0.46095 8.24069 1.17962C9.06202 1.89828 9.47269 2.84428 9.47269 4.01762C9.47269 5.19095 9.06202 6.14428 8.24069 6.87762C7.43402 7.59628 6.40002 7.95562 5.13869 7.95562C3.87735 7.95562 2.83602 7.59628 2.01469 6.87762ZM3.18069 4.01762C3.18069 4.58962 3.36402 5.05162 3.73069 5.40362C4.11202 5.74095 4.58135 5.90962 5.13869 5.90962C5.72535 5.90962 6.20202 5.74095 6.56869 5.40362C6.93535 5.05162 7.11869 4.58962 7.11869 4.01762C7.11869 3.46028 6.92802 3.01295 6.54669 2.67562C6.18002 2.32362 5.71069 2.14762 5.13869 2.14762C4.58135 2.14762 4.11202 2.32362 3.73069 2.67562C3.36402 3.01295 3.18069 3.46028 3.18069 4.01762ZM11.7387 14.8416C10.932 14.1083 10.5287 13.155 10.5287 11.9816C10.5287 10.8083 10.932 9.86228 11.7387 9.14362C12.56 8.42495 13.6014 8.06562 14.8627 8.06562C16.124 8.06562 17.158 8.42495 17.9647 9.14362C18.786 9.86228 19.1967 10.8083 19.1967 11.9816C19.1967 13.155 18.786 14.1083 17.9647 14.8416C17.158 15.5603 16.124 15.9196 14.8627 15.9196C13.6014 15.9196 12.56 15.5603 11.7387 14.8416ZM12.9047 11.9816C12.9047 12.5536 13.088 13.0156 13.4547 13.3676C13.836 13.705 14.3054 13.8736 14.8627 13.8736C15.4494 13.8736 15.926 13.705 16.2927 13.3676C16.6594 13.0156 16.8427 12.5536 16.8427 11.9816C16.8427 11.4243 16.652 10.977 16.2707 10.6396C15.904 10.2876 15.4347 10.1116 14.8627 10.1116C14.3054 10.1116 13.836 10.2876 13.4547 10.6396C13.088 10.977 12.9047 11.4243 12.9047 11.9816Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__media">
+                          <img
+                            class="products__img products__img_primary"
+                            data-src="img/content/products/products__img02.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                          <img
+                            class="products__img products__img_secondary"
+                            data-src="img/content/products/products__img02-2.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                        </div>
+                        <div class="products__main">
+                          <span class="products__title">salon beauty</span>
+                          <span class="products__subtitle"
+                            >Шампунь для волос с экстрактом ламинарии</span
+                          >
+                        </div>
+                      </a>
+                    </div>
+                    <div class="products__item">
+                      <a class="products__link" href="product.html">
+                        <div class="products__labels labels">
+                          <div class="labels__list">
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ffd142"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="16"
+                                viewBox="0 0 20 16"
+                                fill="none"
+                              >
+                                <path
+                                  d="M3.73069 14.9296L14.8407 0.0576172L16.2707 1.13562L5.18269 15.9416L3.73069 14.9296ZM2.01469 6.87762C1.20802 6.14428 0.804688 5.19095 0.804688 4.01762C0.804688 2.84428 1.20802 1.89828 2.01469 1.17962C2.83602 0.46095 3.87735 0.101617 5.13869 0.101617C6.40002 0.101617 7.43402 0.46095 8.24069 1.17962C9.06202 1.89828 9.47269 2.84428 9.47269 4.01762C9.47269 5.19095 9.06202 6.14428 8.24069 6.87762C7.43402 7.59628 6.40002 7.95562 5.13869 7.95562C3.87735 7.95562 2.83602 7.59628 2.01469 6.87762ZM3.18069 4.01762C3.18069 4.58962 3.36402 5.05162 3.73069 5.40362C4.11202 5.74095 4.58135 5.90962 5.13869 5.90962C5.72535 5.90962 6.20202 5.74095 6.56869 5.40362C6.93535 5.05162 7.11869 4.58962 7.11869 4.01762C7.11869 3.46028 6.92802 3.01295 6.54669 2.67562C6.18002 2.32362 5.71069 2.14762 5.13869 2.14762C4.58135 2.14762 4.11202 2.32362 3.73069 2.67562C3.36402 3.01295 3.18069 3.46028 3.18069 4.01762ZM11.7387 14.8416C10.932 14.1083 10.5287 13.155 10.5287 11.9816C10.5287 10.8083 10.932 9.86228 11.7387 9.14362C12.56 8.42495 13.6014 8.06562 14.8627 8.06562C16.124 8.06562 17.158 8.42495 17.9647 9.14362C18.786 9.86228 19.1967 10.8083 19.1967 11.9816C19.1967 13.155 18.786 14.1083 17.9647 14.8416C17.158 15.5603 16.124 15.9196 14.8627 15.9196C13.6014 15.9196 12.56 15.5603 11.7387 14.8416ZM12.9047 11.9816C12.9047 12.5536 13.088 13.0156 13.4547 13.3676C13.836 13.705 14.3054 13.8736 14.8627 13.8736C15.4494 13.8736 15.926 13.705 16.2927 13.3676C16.6594 13.0156 16.8427 12.5536 16.8427 11.9816C16.8427 11.4243 16.652 10.977 16.2707 10.6396C15.904 10.2876 15.4347 10.1116 14.8627 10.1116C14.3054 10.1116 13.836 10.2876 13.4547 10.6396C13.088 10.977 12.9047 11.4243 12.9047 11.9816Z"
+                                  fill="#141414"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__media">
+                          <img
+                            class="products__img products__img_primary"
+                            data-src="img/content/products/products__img03.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                          <img
+                            class="products__img products__img_secondary"
+                            data-src="img/content/products/products__img03-2.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                        </div>
+                        <div class="products__main">
+                          <span class="products__title">PERFECT HAIR</span>
+                          <span class="products__subtitle"
+                            >Сухое масло-спрей для волос</span
+                          >
+                        </div>
+                      </a>
+                    </div>
+                    <div class="products__item">
+                      <a class="products__link" href="product.html">
+                        <div class="products__labels labels">
+                          <div class="labels__list">
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ffd142"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="16"
+                                viewBox="0 0 20 16"
+                                fill="none"
+                              >
+                                <path
+                                  d="M3.73069 14.9296L14.8407 0.0576172L16.2707 1.13562L5.18269 15.9416L3.73069 14.9296ZM2.01469 6.87762C1.20802 6.14428 0.804688 5.19095 0.804688 4.01762C0.804688 2.84428 1.20802 1.89828 2.01469 1.17962C2.83602 0.46095 3.87735 0.101617 5.13869 0.101617C6.40002 0.101617 7.43402 0.46095 8.24069 1.17962C9.06202 1.89828 9.47269 2.84428 9.47269 4.01762C9.47269 5.19095 9.06202 6.14428 8.24069 6.87762C7.43402 7.59628 6.40002 7.95562 5.13869 7.95562C3.87735 7.95562 2.83602 7.59628 2.01469 6.87762ZM3.18069 4.01762C3.18069 4.58962 3.36402 5.05162 3.73069 5.40362C4.11202 5.74095 4.58135 5.90962 5.13869 5.90962C5.72535 5.90962 6.20202 5.74095 6.56869 5.40362C6.93535 5.05162 7.11869 4.58962 7.11869 4.01762C7.11869 3.46028 6.92802 3.01295 6.54669 2.67562C6.18002 2.32362 5.71069 2.14762 5.13869 2.14762C4.58135 2.14762 4.11202 2.32362 3.73069 2.67562C3.36402 3.01295 3.18069 3.46028 3.18069 4.01762ZM11.7387 14.8416C10.932 14.1083 10.5287 13.155 10.5287 11.9816C10.5287 10.8083 10.932 9.86228 11.7387 9.14362C12.56 8.42495 13.6014 8.06562 14.8627 8.06562C16.124 8.06562 17.158 8.42495 17.9647 9.14362C18.786 9.86228 19.1967 10.8083 19.1967 11.9816C19.1967 13.155 18.786 14.1083 17.9647 14.8416C17.158 15.5603 16.124 15.9196 14.8627 15.9196C13.6014 15.9196 12.56 15.5603 11.7387 14.8416ZM12.9047 11.9816C12.9047 12.5536 13.088 13.0156 13.4547 13.3676C13.836 13.705 14.3054 13.8736 14.8627 13.8736C15.4494 13.8736 15.926 13.705 16.2927 13.3676C16.6594 13.0156 16.8427 12.5536 16.8427 11.9816C16.8427 11.4243 16.652 10.977 16.2707 10.6396C15.904 10.2876 15.4347 10.1116 14.8627 10.1116C14.3054 10.1116 13.836 10.2876 13.4547 10.6396C13.088 10.977 12.9047 11.4243 12.9047 11.9816Z"
+                                  fill="#141414"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class="labels__item"
+                              style="background-color: #ff30a0"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="8"
+                                viewBox="0 0 24 8"
+                                fill="none"
+                              >
+                                <path
+                                  d="M23.252 0.5L21.252 7.5H20.102L18.412 2.44L16.752 7.5H15.592L13.502 0.5H14.882L16.292 5.49L17.852 0.5H19.072L20.672 5.5L22.072 0.5H23.252Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M8.66992 7.5V0.5H12.7199V1.65H9.89992V3.39H12.4199V4.54H9.89992V6.35H12.8199V7.5H8.66992Z"
+                                  fill="white"
+                                />
+                                <path
+                                  d="M6.73 7.5H5.75L1.9 2.65V7.5H0.75V0.5H1.73L5.58 5.37V0.5H6.73V7.5Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__media">
+                          <img
+                            class="products__img products__img_primary"
+                            data-src="img/content/products/products__img04.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                          <img
+                            class="products__img products__img_secondary"
+                            data-src="img/content/products/products__img04-2.jpg"
+                            src="img/preview.jpg"
+                            alt="image description"
+                          />
+                        </div>
+                        <div class="products__main">
+                          <span class="products__title">Anti-yellow</span>
+                          <span class="products__subtitle"
+                            >Антижёлтый шампунь для волос</span
+                          >
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+<!--                  <div class="notfound">-->
+<!--                    <div class="notfound__header">-->
+<!--                      <div class="wysiwyg">-->
+<!--                        <h1><strong>К сожалению, ничего не найдено</strong></h1>-->
+<!--                      </div>-->
+<!--                    </div>-->
+<!--                    <div class="notfound__media">-->
+<!--                      <img-->
+<!--                              data-src="img/notfound.png"-->
+<!--                              src="img/preview.jpg"-->
+<!--                              alt="image description"-->
+<!--                      />-->
+<!--                    </div>-->
+<!--                  </div>-->
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- //middle -->
+      <!-- partial:parts/_cookies.html -->
+      <div class="layout__cookies cookies">
+    <div class="cookies__main wysiwyg">
+        <p>Мы используем cookies, чтобы сайт был лучше. <a href="#">Ок, что это?</a></p>
+    </div>
+    <div class="cookies__action">
+        <svg>
+            <use xlink:href="img/sprite.svg#close"></use>
+        </svg>
+    </div>
+</div><!-- //cookies -->
+      <!-- partial -->
+      <!-- partial:parts/_modal.html -->
+      <div class="layout__modal modal">
+    <div class="modal__layout modal__layout_callback">
+
+        <!-- modal header -->
+        <div class="modal__header">
+            <div class="wysiwyg">
+                <h3>Запись на обучение</h3>
+            </div>
+        </div>
+        <div class="modal__action action">
+            <svg class="action__ico">
+                <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
+        </div>
+        <!-- modal content -->
+        <div class="modal__main">
+            <div class="modal__formular formular">
+                <form class="formular__form" action="index.html">
+                    <div class="formular__group">
+                        <div class="form-item form-item_secondary">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Имя и фамилия</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                                class="form-item__input"
+                                                type="text"
+                                                placeholder="Николай Иванов"
+                                                required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item form-item_secondary">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">E-mail</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                                class="form-item__input"
+                                                type="text"
+                                                placeholder="nikola@mail.ru"
+                                                required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item form-item_secondary">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Телефон</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                                class="form-item__input"
+                                                type="tel"
+                                                placeholder="+7 (916) 165-14-58"
+                                                required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item form-item_secondary">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Город</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                                class="form-item__input"
+                                                type="text"
+                                                placeholder="Москва"
+                                                required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="formular__group">
+                        <div class="form-item">
+                            <div class="form-item__main">
+                                <div class="form-item__field">
+                                    <flipping class="btn w-100" type="submit">
+                                        <span class="btn__text">Отправить</span>
+                                    </flipping>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+      <!-- partial -->
+      <!-- partial:parts/_footer.html -->
+      <footer class="layout__footer footer">
+    <div class="container">
+        <div class="footer__middle">
+            <div class="footer__main">
+                <!-- logo -->
+                <div class="footer__logo logo">
+                    <a class="logo__link" href="index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="290" height="103" viewBox="0 0 290 103" fill="none">
+                            <g clip-path="url(#clip0_146_7411)">
+                                <path d="M0 31.5376C0 22.5374 2.99789 15.0331 8.99367 9.02476C14.9895 3.01643 22.7717 0 32.3405 0C41.9093 0 49.5325 2.86929 55.5895 8.62012C61.6464 14.371 64.6688 22.0101 64.6688 31.5254C64.6688 41.0406 61.6097 48.2506 55.5038 54.1731C49.3857 60.0956 41.6646 63.063 32.3405 63.063C23.0165 63.063 15.1485 60.1937 9.09156 54.4429C3.02236 48.692 0 41.0529 0 31.5376ZM14.7814 31.5376C14.7814 36.7612 16.4945 41.151 19.9084 44.6946C23.3224 48.2383 27.4705 50.004 32.3405 50.004C37.908 50.004 42.2152 48.2751 45.2865 44.8173C48.3578 41.3594 49.8873 36.9329 49.8873 31.5376C49.8873 26.1424 48.211 21.6423 44.846 18.2089C41.481 14.7879 37.3084 13.0712 32.3283 13.0712C27.3481 13.0712 23.0287 14.7633 19.7249 18.1721C16.4211 21.581 14.7692 26.032 14.7692 31.5376H14.7814Z" fill="white"/>
+                                <path d="M84.5771 62.0205V1.04199H98.4898V48.9493H123.268V62.0205H84.5894H84.5771Z" fill="white"/>
+                                <path d="M140.461 62.0205V1.04199H154.374V48.9493H179.152V62.0205H140.473H140.461Z" fill="white"/>
+                                <path d="M197.311 62.0204V1.04199H211.223V62.0204H197.311Z" fill="white"/>
+                                <path d="M289.365 62.0205H278.242L249.389 25.4432V62.0205H236.345V1.04199H247.468L276.321 37.8032V1.04199H289.365V62.0205Z" fill="white"/>
+                                <path d="M10.4493 101.762H8.36914V84.5949C8.67505 84.5949 9.40922 84.595 10.5594 84.5704C11.7096 84.5582 12.4683 84.5459 12.8476 84.5459C15.0991 84.5459 16.7143 85.0486 17.7054 86.0541C18.6966 87.0596 19.186 88.3348 19.186 89.8676C19.186 91.4003 18.6476 92.651 17.5831 93.6933C16.5185 94.7355 14.989 95.2628 13.0189 95.2628C12.0767 95.2628 11.2202 95.226 10.4493 95.1647V101.762ZM13.0434 86.5078C12.3949 86.5078 11.5261 86.5201 10.4493 86.5568V93.1783C11.3793 93.2641 12.2113 93.3009 12.9455 93.3009C14.2058 93.3009 15.1848 92.9943 15.9067 92.3813C16.6286 91.7682 16.9835 90.9221 16.9835 89.843C16.9835 88.764 16.6531 87.9792 16.0046 87.3907C15.3561 86.8021 14.3649 86.5078 13.0434 86.5078Z" fill="white"/>
+                                <path d="M34.1143 101.762H32.0342V84.5949C32.389 84.5949 33.2211 84.595 34.5059 84.5704C35.7907 84.5582 36.5004 84.5459 36.635 84.5459C40.6975 84.5459 42.7287 86.2503 42.7287 89.6469C42.7287 90.9098 42.3616 91.9643 41.6397 92.8227C40.9177 93.681 40.0367 94.2451 39.0089 94.5026L44.711 101.762H42.1658L36.9042 94.8949H34.1143V101.762ZM36.5127 86.5078C35.9865 86.5078 35.1911 86.5201 34.1143 86.5568V92.933H36.635C37.6751 92.933 38.5928 92.6388 39.3637 92.0379C40.1346 91.4371 40.5262 90.6523 40.5262 89.6714C40.5262 87.5623 39.1924 86.5078 36.5127 86.5078Z" fill="white"/>
+                                <path d="M54.8193 93.1779C54.8193 90.6765 55.6392 88.5797 57.2911 86.8876C58.943 85.1954 61.0231 84.3494 63.556 84.3494C66.089 84.3494 68.1569 85.1709 69.8088 86.8263C71.4607 88.4816 72.2928 90.5907 72.2928 93.1779C72.2928 95.7652 71.4607 97.8129 69.7966 99.4928C68.1324 101.173 66.0522 102.007 63.556 102.007C61.0598 102.007 58.9552 101.185 57.3033 99.5296C55.6514 97.8742 54.8193 95.7652 54.8193 93.1779ZM57.0219 93.1779C57.0219 95.1276 57.6459 96.7584 58.9063 98.0704C60.1666 99.3825 61.7084 100.045 63.556 100.045C65.4037 100.045 67.0556 99.3947 68.267 98.0827C69.4784 96.7707 70.0902 95.1398 70.0902 93.1779C70.0902 91.216 69.4662 89.5607 68.2058 88.2609C66.9455 86.9612 65.4037 86.3113 63.556 86.3113C61.7084 86.3113 60.1176 86.9612 58.8818 88.2487C57.6459 89.5362 57.0219 91.1792 57.0219 93.1779Z" fill="white"/>
+                                <path d="M85.1396 101.761V84.5947H94.8063V86.5566H87.2198V92.6385H94.0721V94.6004H87.2198V101.761H85.1396Z" fill="white"/>
+                                <path d="M107.385 101.761V84.5947H117.051V86.5566H109.465V92.099H116.317V94.0609H109.465V99.7995H117.296V101.761H107.385Z" fill="white"/>
+                                <path d="M137.915 97.3713C137.915 96.795 137.755 96.3045 137.45 95.8753C137.144 95.4461 136.74 95.1028 136.25 94.833C135.761 94.5633 135.223 94.3058 134.623 94.0605C134.023 93.8153 133.436 93.5455 132.836 93.2635C132.237 92.9815 131.699 92.6504 131.209 92.2948C130.72 91.9392 130.316 91.461 130.01 90.8725C129.704 90.2839 129.545 89.6095 129.545 88.837C129.545 87.5617 130.01 86.4949 130.94 85.6366C131.87 84.7783 133.13 84.3491 134.709 84.3491C135.688 84.3491 136.593 84.5085 137.437 84.8396C138.282 85.1707 138.942 85.5998 139.432 86.1394L138.306 87.7089C137.376 86.777 136.214 86.311 134.831 86.311C133.889 86.311 133.13 86.544 132.58 86.9977C132.029 87.4514 131.747 88.0645 131.747 88.837C131.747 89.4133 131.907 89.9038 132.212 90.3329C132.518 90.7621 132.922 91.1054 133.412 91.3629C133.901 91.6204 134.439 91.8779 135.039 92.1109C135.639 92.3439 136.226 92.6014 136.826 92.8834C137.425 93.1654 137.964 93.472 138.453 93.8276C138.942 94.1832 139.346 94.6614 139.652 95.2622C139.958 95.8631 140.117 96.562 140.117 97.3467C140.117 98.7323 139.579 99.8604 138.514 100.719C137.45 101.577 136.116 102.006 134.537 102.006C133.424 102.006 132.347 101.773 131.307 101.307C130.267 100.841 129.533 100.216 129.129 99.4313L130.328 98.0089C130.818 98.6465 131.454 99.1492 132.237 99.5048C133.02 99.8604 133.791 100.044 134.562 100.044C135.504 100.044 136.299 99.8114 136.948 99.3332C137.596 98.855 137.915 98.2051 137.915 97.3713Z" fill="white"/>
+                                <path d="M160.393 97.3713C160.393 96.795 160.234 96.3045 159.928 95.8753C159.622 95.4461 159.218 95.1028 158.729 94.833C158.239 94.5633 157.701 94.3058 157.102 94.0605C156.502 93.8153 155.915 93.5455 155.315 93.2635C154.715 92.9815 154.177 92.6504 153.688 92.2948C153.198 91.9392 152.794 91.461 152.488 90.8725C152.183 90.2839 152.023 89.6095 152.023 88.837C152.023 87.5617 152.488 86.4949 153.418 85.6366C154.348 84.7783 155.609 84.3491 157.187 84.3491C158.166 84.3491 159.072 84.5085 159.916 84.8396C160.76 85.1707 161.421 85.5998 161.91 86.1394L160.785 87.7089C159.855 86.777 158.692 86.311 157.31 86.311C156.367 86.311 155.609 86.544 155.058 86.9977C154.507 87.4514 154.226 88.0645 154.226 88.837C154.226 89.4133 154.385 89.9038 154.691 90.3329C154.997 90.7621 155.401 91.1054 155.89 91.3629C156.38 91.6204 156.918 91.8779 157.518 92.1109C158.117 92.3439 158.704 92.6014 159.304 92.8834C159.904 93.1654 160.442 93.472 160.931 93.8276C161.421 94.1832 161.825 94.6614 162.131 95.2622C162.437 95.8631 162.596 96.562 162.596 97.3467C162.596 98.7323 162.057 99.8604 160.993 100.719C159.928 101.577 158.594 102.006 157.016 102.006C155.902 102.006 154.826 101.773 153.785 101.307C152.745 100.841 152.011 100.216 151.607 99.4313L152.807 98.0089C153.296 98.6465 153.932 99.1492 154.715 99.5048C155.499 99.8604 156.269 100.044 157.04 100.044C157.983 100.044 158.778 99.8114 159.426 99.3332C160.075 98.855 160.393 98.2051 160.393 97.3713Z" fill="white"/>
+                                <path d="M175.944 101.761V84.5947H178.025V101.761H175.944Z" fill="white"/>
+                                <path d="M191.363 93.1777C191.363 90.6763 192.183 88.5795 193.835 86.8873C195.487 85.1952 197.567 84.3491 200.1 84.3491C202.633 84.3491 204.701 85.1707 206.353 86.826C208.005 88.4814 208.837 90.5904 208.837 93.1777C208.837 95.765 208.005 97.8127 206.34 99.4926C204.676 101.172 202.596 102.006 200.1 102.006C197.604 102.006 195.499 101.185 193.847 99.5294C192.195 97.874 191.363 95.765 191.363 93.1777ZM193.566 93.1777C193.566 95.1273 194.19 96.7582 195.45 98.0702C196.711 99.3822 198.252 100.044 200.1 100.044C201.948 100.044 203.6 99.3945 204.811 98.0825C206.022 96.7704 206.634 95.1396 206.634 93.1777C206.634 91.2158 206.01 89.5604 204.75 88.2607C203.489 86.9609 201.948 86.311 200.1 86.311C198.252 86.311 196.662 86.9609 195.426 88.2484C194.19 89.5359 193.566 91.179 193.566 93.1777Z" fill="white"/>
+                                <path d="M235.977 101.761H234.312L223.618 88.2733V101.761H221.66V84.5947H223.324L234.019 98.1319V84.5947H235.977V101.761Z" fill="white"/>
+                                <path d="M247.944 101.761L255.311 84.4963H257.097L264.463 101.761H262.236L260.034 96.562H252.227L250.049 101.761H247.944ZM256.143 87.2675L253.059 94.6001H259.226L256.143 87.2675Z" fill="white"/>
+                                <path d="M276.503 101.762V84.595H278.583V99.7997H287.026V101.762H276.503Z" fill="white"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_146_7411">
+                                    <rect width="290" height="103" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+                <!-- nav -->
+                <div class="footer__nav nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="catalog.html" class="nav__link">Каталог</a></li>
+                        <li class="nav__item"><a href="articles.html" class="nav__link">Блог</a></li>
+                        <li class="nav__item"><a href="programs.html" class="nav__link">Обучение</a></li>
+                        <li class="nav__item"><a href="contact.html" class="nav__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <!-- footer__reference -->
+                <div class="footer__reference reference">
+                    <ul class="reference__list">
+                        <li class="reference__item"><a class="reference__link" href="#">Политика обработки данных</a></li>
+                        <li class="reference__item"><a class="reference__link" href="#">Согласие на сбор файлов cookie</a></li>
+                    </ul>
+                </div>
+                <!-- footer__socials -->
+                <div class="footer__socials socials">
+                    <ul class="socials__list">
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#socials__ico01"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#socials__ico02"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#socials__ico03"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__formular formular">
+                <form class="formular__form" action="index.html">
+                    <div class="formular__group">
+                        <div class="form-item">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Имя и фамилия</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                            class="form-item__input"
+                                            type="text"
+                                            placeholder="Николай Иванов"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">E-mail</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                            class="form-item__input"
+                                            type="text"
+                                            placeholder="nikola@mail.ru"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Телефон</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                                class="form-item__input"
+                                                type="tel"
+                                                placeholder="+7 (916) 165-14-58"
+                                                required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Город</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                                class="form-item__input"
+                                                type="text"
+                                                placeholder="Москва"
+                                                required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Текст сообщения</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <textarea
+                                                class="form-item__input form-item__input_textarea"
+                                                placeholder="Доброго денёчка и здравия."
+                                                required
+                                        ></textarea>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="formular__group">
+                        <div class="form-item">
+                            <div class="form-item__main">
+                                <div class="form-item__field">
+                                    <flipping class="btn btn_secondary w-100" type="submit">
+                                        <span class="btn__text">Отправить</span>
+                                    </flipping>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <span class="footer__copyright">© Ollin Professional. Все права защищены</span>
+            <span class="footer__year">2024</span>
+        </div>
+    </div><!-- //container -->
+</footer><!-- //footer -->
+      <!-- partial -->
+      <!-- partial:parts/_scripts.html -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/libs.js"></script>
+<script src="js/main.js"></script>
+
+      <!-- partial -->
+    </div>
+    <!-- //wrapper -->
+  </body>
+</html>

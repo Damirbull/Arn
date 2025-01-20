@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- partial:parts/_head.html -->
+    <meta charset="utf-8">
+<title>Ollin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1, user-scalable=0">
+<link rel="stylesheet" href="css/libs.min.css"/>
+<link rel="stylesheet" href="css/main.css"/>
+<link href="img/favicon.png" rel="shortcut icon" type="image/x-icon" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!-- partial -->
+  </head>
+  <body>
+    <div class="layout">
+      <!-- partial:parts/_header.html -->
+      <header class="layout__header header">
+  <div class="container">
+    <!-- logo -->
+    <div class="header__logo logo">
+      <a class="logo__link" href="index.html">
+        <!-- partial:_logo.html -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="496" height="175" viewBox="0 0 496 175" fill="none">
+    <path d="M0 53.5833C0 38.2917 5.12743 25.5417 15.3823 15.3333C25.6371 5.125 38.9475 0 55.3134 0C71.6793 0 84.7176 4.875 95.0771 14.6458C105.437 24.4167 110.606 37.3958 110.606 53.5625C110.606 69.7292 105.374 81.9792 94.9306 92.0417C84.4665 102.104 71.2608 107.146 55.3134 107.146C39.3661 107.146 25.9092 102.271 15.5497 92.5C5.16928 82.7292 0 69.75 0 53.5833ZM25.2814 53.5833C25.2814 62.4583 28.2113 69.9167 34.0503 75.9375C39.8893 81.9583 46.984 84.9583 55.3134 84.9583C64.8358 84.9583 72.2025 82.0208 77.4555 76.1458C82.7085 70.2708 85.3246 62.75 85.3246 53.5833C85.3246 44.4167 82.4574 36.7708 76.7021 30.9375C70.9468 25.125 63.8103 22.2083 55.2925 22.2083C46.7747 22.2083 39.387 25.0833 33.7364 30.875C28.0857 36.6667 25.2604 44.2292 25.2604 53.5833H25.2814Z" fill="#141414"/>
+    <path d="M144.656 105.375V1.77051H168.452V83.1663H210.831V105.375H144.677H144.656Z" fill="#141414"/>
+    <path d="M240.236 105.375V1.77051H264.032V83.1663H306.412V105.375H240.257H240.236Z" fill="#141414"/>
+    <path d="M337.469 105.375V1.77051H361.264V105.375H337.469Z" fill="#141414"/>
+    <path d="M494.913 105.375H475.889L426.54 43.2288V105.375H404.23V1.77051H423.254L472.603 64.2288V1.77051H494.913V105.375Z" fill="#141414"/>
+    <path d="M17.8723 172.895H14.3145V143.729C14.8377 143.729 16.0934 143.729 18.0606 143.687C20.0279 143.666 21.3254 143.646 21.9742 143.646C25.825 143.646 28.5875 144.5 30.2827 146.208C31.9779 147.916 32.815 150.083 32.815 152.687C32.815 155.291 31.8942 157.416 30.0734 159.187C28.2527 160.958 25.6366 161.854 22.2672 161.854C20.6557 161.854 19.1907 161.791 17.8723 161.687V172.895ZM22.3091 146.979C21.1999 146.979 19.7139 147 17.8723 147.062V158.312C19.4628 158.458 20.8859 158.521 22.1416 158.521C24.2972 158.521 25.9715 158 27.2063 156.958C28.441 155.916 29.048 154.479 29.048 152.646C29.048 150.812 28.4829 149.479 27.3737 148.479C26.2645 147.479 24.5693 146.979 22.3091 146.979Z" fill="#141414"/>
+    <path d="M58.3469 172.895H54.7891V143.729C55.396 143.729 56.8191 143.729 59.0166 143.687C61.214 143.666 62.4279 143.646 62.6581 143.646C69.6063 143.646 73.0804 146.541 73.0804 152.312C73.0804 154.458 72.4525 156.25 71.2178 157.708C69.983 159.166 68.4761 160.125 66.7182 160.562L76.4708 172.895H72.1177L63.1185 161.229H58.3469V172.895ZM62.4488 146.979C61.5489 146.979 60.1886 147 58.3469 147.062V157.896H62.6581C64.437 157.896 66.0066 157.396 67.3251 156.375C68.6436 155.354 69.3133 154.021 69.3133 152.354C69.3133 148.771 67.0321 146.979 62.4488 146.979Z" fill="#141414"/>
+    <path d="M93.7598 158.312C93.7598 154.062 95.162 150.5 97.9873 147.625C100.813 144.75 104.37 143.312 108.703 143.312C113.035 143.312 116.572 144.708 119.397 147.521C122.222 150.333 123.645 153.917 123.645 158.312C123.645 162.708 122.222 166.187 119.376 169.042C116.53 171.896 112.972 173.313 108.703 173.313C104.433 173.313 100.834 171.917 98.0082 169.104C95.1829 166.292 93.7598 162.708 93.7598 158.312ZM97.5269 158.312C97.5269 161.625 98.5942 164.396 100.75 166.625C102.905 168.854 105.542 169.979 108.703 169.979C111.863 169.979 114.688 168.875 116.76 166.646C118.832 164.417 119.878 161.646 119.878 158.312C119.878 154.979 118.811 152.167 116.655 149.958C114.5 147.75 111.863 146.646 108.703 146.646C105.542 146.646 102.822 147.75 100.708 149.938C98.5942 152.125 97.5269 154.917 97.5269 158.312Z" fill="#141414"/>
+    <path d="M145.619 172.896V143.729H162.152V147.063H149.177V157.396H160.897V160.729H149.177V172.896H145.619Z" fill="#141414"/>
+    <path d="M183.666 172.896V143.729H200.199V147.063H187.224V156.479H198.944V159.813H187.224V169.563H200.618V172.896H183.666Z" fill="#141414"/>
+    <path d="M235.882 165.438C235.882 164.458 235.61 163.625 235.087 162.896C234.563 162.167 233.873 161.583 233.036 161.125C232.199 160.667 231.278 160.229 230.252 159.812C229.227 159.396 228.222 158.937 227.197 158.458C226.171 157.979 225.25 157.417 224.413 156.812C223.576 156.208 222.886 155.396 222.362 154.396C221.839 153.396 221.567 152.25 221.567 150.937C221.567 148.771 222.362 146.958 223.953 145.5C225.543 144.042 227.699 143.312 230.399 143.312C232.073 143.312 233.622 143.583 235.066 144.146C236.51 144.708 237.64 145.437 238.477 146.354L236.552 149.021C234.961 147.437 232.973 146.646 230.608 146.646C228.997 146.646 227.699 147.042 226.757 147.812C225.815 148.583 225.334 149.625 225.334 150.937C225.334 151.917 225.606 152.75 226.129 153.479C226.653 154.208 227.343 154.792 228.18 155.229C229.017 155.667 229.938 156.104 230.964 156.5C231.989 156.896 232.994 157.333 234.019 157.812C235.045 158.292 235.966 158.812 236.803 159.417C237.64 160.021 238.331 160.833 238.854 161.854C239.377 162.875 239.649 164.062 239.649 165.396C239.649 167.75 238.728 169.667 236.907 171.125C235.087 172.583 232.806 173.313 230.106 173.313C228.201 173.313 226.36 172.917 224.581 172.125C222.802 171.333 221.546 170.271 220.855 168.937L222.906 166.521C223.744 167.604 224.832 168.458 226.171 169.063C227.511 169.667 228.829 169.979 230.148 169.979C231.759 169.979 233.119 169.583 234.229 168.771C235.338 167.958 235.882 166.854 235.882 165.438Z" fill="#141414"/>
+    <path d="M274.329 165.438C274.329 164.458 274.057 163.625 273.534 162.896C273.011 162.167 272.32 161.583 271.483 161.125C270.646 160.667 269.725 160.229 268.7 159.812C267.674 159.396 266.669 158.937 265.644 158.458C264.619 157.979 263.698 157.417 262.861 156.812C262.023 156.208 261.333 155.396 260.81 154.396C260.286 153.396 260.014 152.25 260.014 150.937C260.014 148.771 260.81 146.958 262.4 145.5C263.991 144.042 266.146 143.312 268.846 143.312C270.52 143.312 272.069 143.583 273.513 144.146C274.957 144.708 276.087 145.437 276.924 146.354L274.999 149.021C273.408 147.437 271.42 146.646 269.055 146.646C267.444 146.646 266.146 147.042 265.205 147.812C264.263 148.583 263.781 149.625 263.781 150.937C263.781 151.917 264.053 152.75 264.577 153.479C265.1 154.208 265.791 154.792 266.628 155.229C267.465 155.667 268.386 156.104 269.411 156.5C270.437 156.896 271.441 157.333 272.467 157.812C273.492 158.292 274.413 158.812 275.25 159.417C276.087 160.021 276.778 160.833 277.301 161.854C277.824 162.875 278.096 164.062 278.096 165.396C278.096 167.75 277.175 169.667 275.355 171.125C273.534 172.583 271.253 173.313 268.553 173.313C266.649 173.313 264.807 172.917 263.028 172.125C261.249 171.333 259.993 170.271 259.303 168.937L261.354 166.521C262.191 167.604 263.279 168.458 264.619 169.063C265.958 169.667 267.276 169.979 268.595 169.979C270.206 169.979 271.567 169.583 272.676 168.771C273.785 167.958 274.329 166.854 274.329 165.438Z" fill="#141414"/>
+    <path d="M300.928 172.896V143.729H304.486V172.896H300.928Z" fill="#141414"/>
+    <path d="M327.299 158.312C327.299 154.062 328.701 150.5 331.526 147.625C334.352 144.75 337.909 143.312 342.242 143.312C346.574 143.312 350.111 144.708 352.936 147.521C355.761 150.333 357.184 153.917 357.184 158.312C357.184 162.708 355.761 166.187 352.915 169.042C350.069 171.896 346.511 173.313 342.242 173.313C337.972 173.313 334.373 171.917 331.547 169.104C328.722 166.292 327.299 162.708 327.299 158.312ZM331.066 158.312C331.066 161.625 332.133 164.396 334.289 166.625C336.444 168.854 339.081 169.979 342.242 169.979C345.402 169.979 348.227 168.875 350.299 166.646C352.371 164.417 353.417 161.646 353.417 158.312C353.417 154.979 352.35 152.167 350.194 149.958C348.039 147.75 345.402 146.646 342.242 146.646C339.081 146.646 336.361 147.75 334.247 149.938C332.133 152.125 331.066 154.917 331.066 158.312Z" fill="#141414"/>
+    <path d="M403.603 172.896H400.757L382.466 149.979V172.896H379.117V143.729H381.963L400.255 166.729V143.729H403.603V172.896Z" fill="#141414"/>
+    <path d="M424.072 172.896L436.671 143.562H439.727L452.325 172.896H448.516L444.749 164.062H431.397L427.672 172.896H424.072ZM438.094 148.271L432.82 160.729H443.368L438.094 148.271Z" fill="#141414"/>
+    <path d="M472.916 172.896V143.729H476.474V169.563H490.914V172.896H472.916Z" fill="#141414"/>
+</svg>
+        <!-- partial -->
+      </a>
+    </div>
+    <div class="header__layout">
+      <!-- search -->
+      <div class="header__search search">
+        <form class="search__formular" action="index.html">
+          <div class="search__header">
+            <label class="search__label" for="search__input">Поиск</label>
+          </div>
+          <div class="search__main">
+            <div class="search__field">
+              <input
+                id="search__input"
+                class="search__input"
+                type="text"
+                placeholder="Поиск"
+              />
+            </div>
+            <div class="search__flipping">
+              <flipping class="search__btn" type="submit">
+                <svg class="search__ico">
+                  <use xlink:href="img/sprite.svg#search"></use>
+                </svg>
+              </flipping>
+            </div>
+          </div>
+          <div class="search__footer">
+            <span class="btn btn_underline">
+              <span class="btn__text">Закрыть</span>
+            </span>
+          </div>
+        </form>
+      </div>
+      <!-- nav -->
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">О нас</a></li>
+          <li class="nav__item"><a href="catalog.html" class="nav__link">Каталог</a></li>
+          <li class="nav__item"><a href="articles.html" class="nav__link">Блог</a></li>
+          <li class="nav__item"><a href="programs.html" class="nav__link">Обучение</a></li>
+          <li class="nav__item"><a href="contact.html" class="nav__link">Контакты</a></li>
+        </ul>
+        <!-- //nav__list -->
+      </nav>
+      <!-- //nav -->
+      <!-- callback -->
+      <div class="header__callback callback">
+        <span class="btn modal-init" data-modalname="modal__layout_callback">
+          <span class="btn__text">Обратная связь</span>
+        </span>
+      </div>
+
+    </div>
+    <!-- burger -->
+    <div class="header__burger burger">
+      <span class="burger__item"></span>
+      <span class="burger__item"></span>
+      <span class="burger__item"></span>
+    </div>
+  </div>
+  <!-- //container -->
+</header>
+<!-- //header -->
+
+      <!-- partial -->
+
+      <!-- //middle -->
+      <!-- partial:parts/_cookies.html -->
+      <div class="layout__cookies cookies">
+    <div class="cookies__main wysiwyg">
+        <p>Мы используем cookies, чтобы сайт был лучше. <a href="#">Ок, что это?</a></p>
+    </div>
+    <div class="cookies__action">
+        <svg>
+            <use xlink:href="img/sprite.svg#close"></use>
+        </svg>
+    </div>
+</div><!-- //cookies -->
+      <!-- partial -->
+      <!-- partial:parts/_modal.html -->
+      <div class="layout__modal modal">
+    <div class="modal__layout modal__layout_callback">
+
+        <!-- modal header -->
+        <div class="modal__header">
+            <div class="wysiwyg">
+                <h3>Запись на обучение</h3>
+            </div>
+        </div>
+        <div class="modal__action action">
+            <svg class="action__ico">
+                <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
+        </div>
+        <!-- modal content -->
+        <div class="modal__main">
+            <div class="modal__formular formular">
+                <form class="formular__form" action="index.html">
+                    <div class="formular__group">
+                        <div class="form-item form-item_secondary">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Имя и фамилия</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                                class="form-item__input"
+                                                type="text"
+                                                placeholder="Николай Иванов"
+                                                required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item form-item_secondary">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">E-mail</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                                class="form-item__input"
+                                                type="text"
+                                                placeholder="nikola@mail.ru"
+                                                required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item form-item_secondary">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Телефон</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                                class="form-item__input"
+                                                type="tel"
+                                                placeholder="+7 (916) 165-14-58"
+                                                required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item form-item_secondary">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Город</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                                class="form-item__input"
+                                                type="text"
+                                                placeholder="Москва"
+                                                required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="formular__group">
+                        <div class="form-item">
+                            <div class="form-item__main">
+                                <div class="form-item__field">
+                                    <flipping class="btn w-100" type="submit">
+                                        <span class="btn__text">Отправить</span>
+                                    </flipping>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+      <!-- partial -->
+      <!-- partial:parts/_footerSecondary.html -->
+      <footer class="layout__footer footer">
+    <div class="container">
+        <div class="footer__contact contact">
+            <div class="contact__list">
+                <div class="contact__item contact__item_active">
+                    <div class="contact__header">
+                        <div class="wysiwyg">
+                            <h3>Москва</h3>
+                        </div>
+                    </div>
+                    <div class="contact__action">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#chevronTop"></use>
+                        </svg>
+                    </div>
+                    <div class="contact__main">
+                        <div class="contact__group group">
+                            <div class="group__header">
+                                <div class="wysiwyg">
+                                    <p>Центральный офис</p>
+                                </div>
+                            </div>
+                            <div class="group__main">
+                                <div class="contact__data data">
+                                    <div class="data__list">
+                                        <div class="data__item">
+                                            <span class="data__title">т.</span>
+                                            <a class="data__value data__value_link" href="tel:74951201010">+7 (495) 120-10-10</a>
+                                        </div>
+                                        <div class="data__item">
+                                            <span class="data__title">п.</span>
+                                            <a class="data__value data__value_link" href="mailto:pr@astoriacosmo.ru">pr@astoriacosmo.ru</a>
+                                        </div>
+                                        <div class="data__item">
+                                            <span class="data__title">а.</span>
+                                            <span class="data__value">105082, г. Москва, Спартаковская пл., д. 14, стр. 4, офис 4305</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact__group group">
+                            <div class="group__header">
+                                <div class="wysiwyg">
+                                    <p>Студия</p>
+                                </div>
+                            </div>
+                            <div class="group__main">
+                                <div class="contact__data data">
+                                    <div class="data__list">
+                                        <div class="data__item">
+                                            <span class="data__title">т.</span>
+                                            <a class="data__value data__value_link" href="tel:74951201010">+7 (495) 120-10-10</a>
+                                        </div>
+                                        <div class="data__item">
+                                            <span class="data__title">п.</span>
+                                            <a class="data__value data__value_link" href="mailto:pr@astoriacosmo.ru">pr@astoriacosmo.ru</a>
+                                        </div>
+                                        <div class="data__item">
+                                            <span class="data__title">а.</span>
+                                            <span class="data__value">105082, г. Москва, Спартаковская пл., д. 14, стр. 4, офис 4305</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact__group group">
+                            <div class="group__header">
+                                <div class="wysiwyg">
+                                    <p>Социальные сети</p>
+                                </div>
+                            </div>
+                            <div class="group__main">
+                                <div class="contact__socials socials">
+                                    <ul class="socials__list">
+                                        <li class="socials__item">
+                                            <a class="socials__link" href="https://t.me/ollin_professional_0fficial" target="_blank">Телеграм</a>
+                                        </li>
+                                        <li class="socials__item">
+                                            <a class="socials__link" href="https://vk.com/ollin_pro" target="_blank">Вконтакте</a>
+                                        </li>
+                                        <li class="socials__item">
+                                            <a class="socials__link" href="https://www.youtube.com/@OLLINPROFESSIONAL/videos" target="_blank">Ютуб</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__map map">
+                        <a class="map__link" href="#" target="_blank">
+                            <img
+                                    data-src="img/content/contact/contact__img01.jpg"
+                                    src="img/preview.jpg"
+                                    alt="image description"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="contact__item contact__item_active">
+                    <div class="contact__header">
+                        <div class="wysiwyg">
+                            <h3>Санкт-Петербург</h3>
+                        </div>
+                    </div>
+                    <div class="contact__action">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#chevronTop"></use>
+                        </svg>
+                    </div>
+                    <div class="contact__main">
+                        <div class="contact__group group">
+                            <div class="group__header">
+                                <div class="wysiwyg">
+                                    <p>Центральный офис</p>
+                                </div>
+                            </div>
+                            <div class="group__main">
+                                <div class="contact__data data">
+                                    <div class="data__list">
+                                        <div class="data__item">
+                                            <span class="data__title">т.</span>
+                                            <span class="data__value">+7 (495) 120-10-10</span>
+                                        </div>
+                                        <div class="data__item">
+                                            <span class="data__title">п.</span>
+                                            <span class="data__value">pr@astoriacosmo.ru</span>
+                                        </div>
+                                        <div class="data__item">
+                                            <span class="data__title">а.</span>
+                                            <span class="data__value">105082, г. Москва, Спартаковская пл., д. 14, стр. 4, офис 4305</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact__group group">
+                            <div class="group__header">
+                                <div class="wysiwyg">
+                                    <p>Студия</p>
+                                </div>
+                            </div>
+                            <div class="group__main">
+                                <div class="contact__data data">
+                                    <div class="data__list">
+                                        <div class="data__item">
+                                            <span class="data__title">т.</span>
+                                            <span class="data__value">+7 (495) 120-10-10</span>
+                                        </div>
+                                        <div class="data__item">
+                                            <span class="data__title">п.</span>
+                                            <span class="data__value">pr@astoriacosmo.ru</span>
+                                        </div>
+                                        <div class="data__item">
+                                            <span class="data__title">а.</span>
+                                            <span class="data__value">105082, г. Москва, Спартаковская пл., д. 14, стр. 4, офис 4305</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="contact__group group">
+                            <div class="group__header">
+                                <div class="wysiwyg">
+                                    <p>Социальные сети</p>
+                                </div>
+                            </div>
+                            <div class="group__main">
+                                <div class="contact__socials socials">
+                                    <ul class="socials__list">
+                                        <li class="socials__item">
+                                            <a class="socials__link" href="https://t.me/ollin_professional_0fficial" target="_blank">Телеграм</a>
+                                        </li>
+                                        <li class="socials__item">
+                                            <a class="socials__link" href="https://vk.com/ollin_pro" target="_blank">Вконтакте</a>
+                                        </li>
+                                        <li class="socials__item">
+                                            <a class="socials__link" href="https://www.youtube.com/@OLLINPROFESSIONAL/videos" target="_blank">Ютуб</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__map map">
+                        <a class="map__link" href="#" target="_blank">
+                            <img
+                                    data-src="img/content/contact/contact__img01.jpg"
+                                    src="img/preview.jpg"
+                                    alt="image description"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__middle">
+            <div class="footer__main">
+                <!-- logo -->
+                <div class="footer__logo logo">
+                    <a class="logo__link" href="../index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="288" height="102" viewBox="0 0 288 102" fill="none">
+                            <g clip-path="url(#clip0_2_4551)">
+                                <path d="M0 31.2314C0 22.3186 2.97721 14.8871 8.93165 8.93714C14.8861 2.98714 22.6147 0 32.1175 0C41.6203 0 49.1909 2.84143 55.2061 8.53643C61.2213 14.2314 64.2228 21.7964 64.2228 31.2193C64.2228 40.6421 61.1848 47.7821 55.121 53.6471C49.0451 59.5121 41.3772 62.4507 32.1175 62.4507C22.8577 62.4507 15.044 59.6093 9.02886 53.9143C3.00152 48.2193 0 40.6543 0 31.2314ZM14.6795 31.2314C14.6795 36.4043 16.3808 40.7514 19.7711 44.2607C23.1615 47.77 27.281 49.5186 32.1175 49.5186C37.6466 49.5186 41.924 47.8064 44.9742 44.3821C48.0243 40.9579 49.5433 36.5743 49.5433 31.2314C49.5433 25.8886 47.8785 21.4321 44.5367 18.0321C41.1949 14.6443 37.0511 12.9443 32.1053 12.9443C27.1595 12.9443 22.8699 14.62 19.5889 17.9957C16.3078 21.3714 14.6673 25.7793 14.6673 31.2314H14.6795Z" fill="white"/>
+                                <path d="M83.9941 61.4187V1.03223H97.8108V48.4744H122.418V61.4187H84.0063H83.9941Z" fill="white"/>
+                                <path d="M139.492 61.4187V1.03223H153.309V48.4744H177.916V61.4187H139.504H139.492Z" fill="white"/>
+                                <path d="M195.949 61.4187V1.03223H209.766V61.4187H195.949Z" fill="white"/>
+                                <path d="M287.369 61.4187H276.323L247.669 25.1965V61.4187H234.715V1.03223H245.761L274.415 37.4365V1.03223H287.369V61.4187Z" fill="white"/>
+                                <path d="M10.3783 100.774H8.3125V83.7742C8.6163 83.7742 9.34541 83.7742 10.4877 83.7499C11.63 83.7377 12.3834 83.7256 12.7601 83.7256C14.996 83.7256 16.6001 84.2234 17.5844 85.2192C18.5687 86.2149 19.0548 87.4777 19.0548 88.9956C19.0548 90.5134 18.5201 91.752 17.4629 92.7842C16.4057 93.8163 14.8867 94.3384 12.9302 94.3384C11.9945 94.3384 11.1439 94.302 10.3783 94.2413V100.774ZM12.9545 85.6684C12.3105 85.6684 11.4477 85.6806 10.3783 85.717V92.2742C11.3019 92.3592 12.1282 92.3956 12.8573 92.3956C14.109 92.3956 15.0811 92.092 15.7981 91.4849C16.515 90.8777 16.8674 90.0399 16.8674 88.9713C16.8674 87.9027 16.5393 87.1256 15.8953 86.5427C15.2512 85.9599 14.2669 85.6684 12.9545 85.6684Z" fill="white"/>
+                                <path d="M33.8783 100.774H31.8125V83.7742C32.1649 83.7742 32.9912 83.7742 34.2672 83.7499C35.5431 83.7377 36.2479 83.7256 36.3816 83.7256C40.416 83.7256 42.4333 85.4134 42.4333 88.777C42.4333 90.0277 42.0687 91.072 41.3517 91.922C40.6348 92.772 39.7598 93.3306 38.7391 93.5856L44.4019 100.774H41.8743L36.649 93.9742H33.8783V100.774ZM36.2601 85.6684C35.7376 85.6684 34.9477 85.6806 33.8783 85.717V92.0313H36.3816C37.4145 92.0313 38.3259 91.7399 39.0915 91.1449C39.8571 90.5499 40.2459 89.7727 40.2459 88.8013C40.2459 86.7127 38.9214 85.6684 36.2601 85.6684Z" fill="white"/>
+                                <path d="M54.4414 92.2731C54.4414 89.796 55.2556 87.7196 56.8961 86.0438C58.5366 84.3681 60.6024 83.5303 63.1179 83.5303C65.6333 83.5303 67.687 84.3438 69.3275 85.9831C70.968 87.6224 71.7943 89.711 71.7943 92.2731C71.7943 94.8353 70.968 96.8631 69.3153 98.5267C67.6627 100.19 65.5968 101.016 63.1179 101.016C60.6389 101.016 58.5488 100.202 56.9082 98.5631C55.2677 96.9238 54.4414 94.8353 54.4414 92.2731ZM56.6287 92.2731C56.6287 94.2038 57.2485 95.8188 58.5001 97.1181C59.7518 98.4174 61.2829 99.0731 63.1179 99.0731C64.9528 99.0731 66.5933 98.4296 67.7963 97.1303C68.9994 95.831 69.607 94.216 69.607 92.2731C69.607 90.3303 68.9872 88.691 67.7356 87.4038C66.4839 86.1167 64.9528 85.4731 63.1179 85.4731C61.2829 85.4731 59.7032 86.1167 58.4758 87.3917C57.2485 88.6667 56.6287 90.2938 56.6287 92.2731Z" fill="white"/>
+                                <path d="M84.5527 100.773V83.7734H94.1527V85.7163H86.6186V91.7392H93.4236V93.682H86.6186V100.773H84.5527Z" fill="white"/>
+                                <path d="M106.645 100.773V83.7734H116.245V85.7163H108.71V91.2049H115.515V93.1477H108.71V98.8306H116.488V100.773H106.645Z" fill="white"/>
+                                <path d="M136.963 96.426C136.963 95.8553 136.805 95.3696 136.502 94.9446C136.198 94.5196 135.797 94.1796 135.311 93.9124C134.825 93.6453 134.29 93.3903 133.694 93.1474C133.099 92.9046 132.516 92.6374 131.92 92.3581C131.325 92.0788 130.79 91.751 130.304 91.3988C129.818 91.0467 129.417 90.5731 129.113 89.9903C128.809 89.4074 128.651 88.7396 128.651 87.9746C128.651 86.7117 129.113 85.6553 130.037 84.8053C130.96 83.9553 132.212 83.5303 133.78 83.5303C134.752 83.5303 135.651 83.6881 136.489 84.016C137.328 84.3438 137.984 84.7688 138.47 85.3031L137.352 86.8574C136.429 85.9346 135.274 85.4731 133.901 85.4731C132.965 85.4731 132.212 85.7038 131.665 86.1531C131.118 86.6024 130.839 87.2096 130.839 87.9746C130.839 88.5453 130.997 89.031 131.301 89.456C131.604 89.881 132.005 90.221 132.491 90.476C132.978 90.731 133.512 90.986 134.108 91.2167C134.703 91.4474 135.286 91.7024 135.882 91.9817C136.477 92.261 137.012 92.5646 137.498 92.9167C137.984 93.2688 138.385 93.7424 138.689 94.3374C138.993 94.9324 139.151 95.6246 139.151 96.4017C139.151 97.7738 138.616 98.891 137.559 99.741C136.502 100.591 135.177 101.016 133.609 101.016C132.504 101.016 131.434 100.785 130.401 100.324C129.368 99.8624 128.639 99.2431 128.238 98.466L129.429 97.0574C129.915 97.6888 130.547 98.1867 131.325 98.5388C132.103 98.891 132.868 99.0731 133.634 99.0731C134.569 99.0731 135.359 98.8424 136.003 98.3688C136.647 97.8953 136.963 97.2517 136.963 96.426Z" fill="white"/>
+                                <path d="M159.288 96.426C159.288 95.8553 159.13 95.3696 158.826 94.9446C158.522 94.5196 158.121 94.1796 157.635 93.9124C157.149 93.6453 156.614 93.3903 156.019 93.1474C155.423 92.9046 154.84 92.6374 154.245 92.3581C153.649 92.0788 153.114 91.751 152.628 91.3988C152.142 91.0467 151.741 90.5731 151.437 89.9903C151.134 89.4074 150.976 88.7396 150.976 87.9746C150.976 86.7117 151.437 85.6553 152.361 84.8053C153.285 83.9553 154.536 83.5303 156.104 83.5303C157.076 83.5303 157.975 83.6881 158.814 84.016C159.652 84.3438 160.308 84.7688 160.794 85.3031L159.676 86.8574C158.753 85.9346 157.598 85.4731 156.225 85.4731C155.29 85.4731 154.536 85.7038 153.989 86.1531C153.443 86.6024 153.163 87.2096 153.163 87.9746C153.163 88.5453 153.321 89.031 153.625 89.456C153.929 89.881 154.33 90.221 154.816 90.476C155.302 90.731 155.836 90.986 156.432 91.2167C157.027 91.4474 157.611 91.7024 158.206 91.9817C158.801 92.261 159.336 92.5646 159.822 92.9167C160.308 93.2688 160.709 93.7424 161.013 94.3374C161.317 94.9324 161.475 95.6246 161.475 96.4017C161.475 97.7738 160.94 98.891 159.883 99.741C158.826 100.591 157.501 101.016 155.934 101.016C154.828 101.016 153.758 100.785 152.726 100.324C151.693 99.8624 150.964 99.2431 150.562 98.466L151.753 97.0574C152.239 97.6888 152.871 98.1867 153.649 98.5388C154.427 98.891 155.192 99.0731 155.958 99.0731C156.894 99.0731 157.684 98.8424 158.328 98.3688C158.972 97.8953 159.288 97.2517 159.288 96.426Z" fill="white"/>
+                                <path d="M174.732 100.773V83.7734H176.798V100.773H174.732Z" fill="white"/>
+                                <path d="M190.045 92.2731C190.045 89.796 190.859 87.7196 192.5 86.0438C194.14 84.3681 196.206 83.5303 198.721 83.5303C201.237 83.5303 203.291 84.3438 204.931 85.9831C206.572 87.6224 207.398 89.711 207.398 92.2731C207.398 94.8353 206.572 96.8631 204.919 98.5267C203.266 100.19 201.2 101.016 198.721 101.016C196.242 101.016 194.152 100.202 192.512 98.5631C190.871 96.9238 190.045 94.8353 190.045 92.2731ZM192.232 92.2731C192.232 94.2038 192.852 95.8188 194.104 97.1181C195.355 98.4174 196.886 99.0731 198.721 99.0731C200.556 99.0731 202.197 98.4296 203.4 97.1303C204.603 95.831 205.21 94.216 205.21 92.2731C205.21 90.3303 204.591 88.691 203.339 87.4038C202.087 86.1167 200.556 85.4731 198.721 85.4731C196.886 85.4731 195.307 86.1167 194.079 87.3917C192.852 88.6667 192.232 90.2938 192.232 92.2731Z" fill="white"/>
+                                <path d="M234.351 100.773H232.698L222.077 87.4163V100.773H220.133V83.7734H221.785L232.406 97.1792V83.7734H234.351V100.773Z" fill="white"/>
+                                <path d="M246.234 100.773L253.55 83.6758H255.324L262.639 100.773H260.428L258.24 95.6243H250.488L248.325 100.773H246.234ZM254.376 86.4201L251.314 93.6815H257.438L254.376 86.4201Z" fill="white"/>
+                                <path d="M274.596 100.773V83.7734H276.662V98.8306H285.046V100.773H274.596Z" fill="white"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2_4551">
+                                    <rect width="288" height="102" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+                <!-- nav -->
+                <div class="footer__nav nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="#">Главная</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Каталог</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Блог</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Обучение</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <!-- footer__reference -->
+                <div class="footer__reference reference">
+                    <ul class="reference__list">
+                        <li class="reference__item"><a class="reference__link" href="#">Политика обработки данных</a></li>
+                        <li class="reference__item"><a class="reference__link" href="#">Согласие на сбор файлов cookie</a></li>
+                    </ul>
+                </div>
+                <!-- footer__socials -->
+                <div class="footer__socials socials">
+                    <ul class="socials__list">
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#socials__ico01"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#socials__ico02"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#socials__ico03"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__formular formular">
+                <form class="formular__form" action="../index.html">
+                    <div class="formular__group">
+                        <div class="form-item">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Имя и фамилия</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                            class="form-item__input"
+                                            type="text"
+                                            placeholder="Николай Иванов"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">E-mail</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                            class="form-item__input"
+                                            type="text"
+                                            placeholder="nikola@mail.ru"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Телефон</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                                class="form-item__input"
+                                                type="tel"
+                                                placeholder="+7 (916) 165-14-58"
+                                                required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Город</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <input
+                                                class="form-item__input"
+                                                type="text"
+                                                placeholder="Москва"
+                                                required
+                                        />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-item">
+                            <label class="form-item__label">
+                                <div class="form-item__header">
+                                    <span class="form-item__title">Текст сообщения</span>
+                                </div>
+                                <div class="form-item__main">
+                                    <div class="form-item__field">
+                                        <textarea
+                                                class="form-item__input form-item__input_textarea"
+                                                placeholder="Доброго денёчка и здравия."
+                                                required
+                                        ></textarea>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="formular__group">
+                        <div class="form-item">
+                            <div class="form-item__main">
+                                <div class="form-item__field">
+                                    <flipping class="btn btn_secondary w-100" type="submit">
+                                        <span class="btn__text">Отправить</span>
+                                    </flipping>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <span class="footer__copyright">© Ollin Professional. Все права защищены</span>
+            <span class="footer__year">2024</span>
+        </div>
+    </div><!-- //container -->
+</footer><!-- //footer -->
+      <!-- partial -->
+      <!-- partial:parts/_scripts.html -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/libs.js"></script>
+<script src="js/main.js"></script>
+
+      <!-- partial -->
+    </div>
+    <!-- //wrapper -->
+  </body>
+</html>
